@@ -1,6 +1,9 @@
 import { createStep, createWorkflow } from '@mastra/core/workflows';
 import { z } from 'zod';
-import { extractTextFromPDFSimple } from '../tools/simpleOCR';
+import { RuntimeContext } from "@mastra/core/di";
+import { pdfFetcherTool } from '../tools/pdf-fetcher-tool';
+import { textExtractorTool } from '../tools/text-extractor-tool';
+import { questionGeneratorTool } from '../tools/question-generator-tool';
 
 // Define schemas for input and outputs
 const pdfInputSchema = z.object({
@@ -28,33 +31,20 @@ const downloadPdfStep = createStep({
   outputSchema: z.object({
     pdfFile: z.instanceof(Buffer).describe('The downloaded PDF file buffer'),
   }),
-  execute: async ({ inputData }) => {
+  execute: async ({ inputData, mastra, runtimeContext }) => {
     console.log('Executing Step: download-pdf');
     const { pdfUrl } = inputData;
 
-    console.log('Downloading PDF from URL:', pdfUrl);
-    try {
-      const response = await fetch(pdfUrl);
-      if (!response.ok) {
-        throw new Error(
-          `Failed to download PDF: ${response.status} ${response.statusText}`
-        );
-      }
+    const result = await pdfFetcherTool.execute({
+      context: { pdfUrl },
+      mastra,
+      runtimeContext: runtimeContext || new RuntimeContext(),
+    });
 
-      const arrayBuffer = await response.arrayBuffer();
-      const downloadedPdfFile = Buffer.from(arrayBuffer);
-
-      console.log(
-        `Step download-pdf: Succeeded - Downloaded ${downloadedPdfFile.length} bytes`
-      );
-      return { pdfFile: downloadedPdfFile };
-    } catch (error) {
-      throw new Error(
-        `Failed to download PDF from URL: ${
-          error instanceof Error ? error.message : 'Unknown error'
-        }`
-      );
-    }
+    console.log(
+      `Step download-pdf: Succeeded - Downloaded ${result.fileSize} bytes`
+    );
+    return { pdfFile: result.pdfBuffer };
   },
 });
 
@@ -66,15 +56,20 @@ const extractTextStep = createStep({
     pdfFile: z.instanceof(Buffer).describe('The PDF file buffer to process'),
   }),
   outputSchema: extractedTextSchema,
-  execute: async ({ inputData, mastra }) => {
-    console.log('Executing Step: extract-text');
+  execute: async ({ inputData, mastra, runtimeContext }) => {
+    console.log('Executing Step: extract-text', {inputData});
     const { pdfFile } = inputData;
 
     if (!pdfFile || !(pdfFile instanceof Buffer)) {
       throw new Error('Invalid PDF file provided');
     }
 
-    const result = await extractTextFromPDFSimple(pdfFile);
+    const result = await textExtractorTool.execute({
+      context: { pdfBuffer: pdfFile },
+      mastra,
+      runtimeContext: runtimeContext || new RuntimeContext(),
+    });
+
     const extractedText = result.extractedText;
 
     if (!extractedText || extractedText.trim() === '') {
@@ -96,7 +91,7 @@ const generateQuestionsStep = createStep({
   description: 'Generates questions from the extracted PDF text',
   inputSchema: extractedTextSchema,
   outputSchema: questionsSchema,
-  execute: async ({ inputData, mastra }) => {
+  execute: async ({ inputData, mastra, runtimeContext }) => {
     console.log('Executing Step: generate-questions');
 
     const { extractedText } = inputData;
@@ -107,41 +102,16 @@ const generateQuestionsStep = createStep({
     }
 
     try {
-      const agent = mastra?.getAgent('questionGeneratorAgent');
-      if (!agent) {
-        throw new Error('Question generator agent not found');
-      }
+      const result = await questionGeneratorTool.execute({
+        context: { extractedText },
+        mastra,
+        runtimeContext: runtimeContext || new RuntimeContext(),
+      });
 
-      const streamResponse = await agent.stream([
-        {
-          role: 'user',
-          content: `Generate comprehensive questions based on the following content extracted from a PDF.
-Please create questions that test understanding, analysis, and application of the content:
-
-${extractedText.substring(0, 4000)}`,
-        },
-      ]);
-
-      let generatedContent = '';
-
-      for await (const chunk of streamResponse.textStream) {
-        generatedContent += chunk || '';
-      }
-
-      if (generatedContent.trim().length > 20) {
-        // Parse the questions from the generated content
-        const questions = parseQuestionsFromText(generatedContent);
-
-        console.log(
-          `Step generate-questions: Succeeded - Generated ${questions.length} questions`
-        );
-        return { questions, success: true };
-      } else {
-        console.warn(
-          'Step generate-questions: Failed - Generated content too short'
-        );
-        return { questions: [], success: false };
-      }
+      console.log(
+        `Step generate-questions: Succeeded - Generated ${result.questions.length} questions`
+      );
+      return { questions: result.questions, success: result.success };
     } catch (error) {
       console.error(
         'Step generate-questions: Failed - Error during generation:',
@@ -151,32 +121,6 @@ ${extractedText.substring(0, 4000)}`,
     }
   },
 });
-
-// Removed fallback step - keeping it simple with single question generation path
-
-// Helper function to parse questions from generated text
-function parseQuestionsFromText(text: string): string[] {
-  // Split by common question patterns and clean up
-  const lines = text
-    .split('\n')
-    .map((line) => line.trim())
-    .filter((line) => line.length > 0)
-    .filter((line) => line.includes('?') || line.match(/^\d+[\.\)]/)); // Question marks or numbered items
-
-  // Extract actual questions
-  const questions = lines
-    .map((line) => {
-      // Remove numbering patterns like "1.", "1)", etc.
-      let cleaned = line.replace(/^\d+[\.\)]\s*/, '');
-      // Remove bullet points
-      cleaned = cleaned.replace(/^[\-\*\•]\s*/, '');
-      return cleaned.trim();
-    })
-    .filter((q) => q.length > 5) // Filter out very short strings
-    .slice(0, 10); // Limit to 10 questions
-
-  return questions;
-}
 
 // Define the workflow with simple sequential steps
 export const pdfToQuestionsWorkflow = createWorkflow({

@@ -42,7 +42,7 @@ This template demonstrates a straightforward workflow:
 
 ## Usage
 
-### Basic Usage
+### Using the Workflow
 
 ```typescript
 import { mastra } from './src/mastra/index';
@@ -57,6 +57,59 @@ const result = await run.start({
 });
 
 console.log(result.result.questions);
+```
+
+### Using the PDF Questions Agent
+
+```typescript
+import { mastra } from './src/mastra/index';
+
+const agent = mastra.getAgent('pdfQuestionsAgent');
+
+// The agent can handle the full process with natural language
+const response = await agent.stream([
+  {
+    role: 'user',
+    content: 'Please download this PDF and generate questions from it: https://example.com/document.pdf',
+  },
+]);
+
+for await (const chunk of response.textStream) {
+  console.log(chunk);
+}
+```
+
+### Using Individual Tools
+
+```typescript
+import { mastra } from './src/mastra/index';
+import { pdfFetcherTool } from './src/mastra/tools/pdf-fetcher-tool';
+import { textExtractorTool } from './src/mastra/tools/text-extractor-tool';
+import { questionGeneratorTool } from './src/mastra/tools/question-generator-tool';
+
+// Step 1: Download PDF
+const pdfResult = await pdfFetcherTool.execute({
+  context: { pdfUrl: 'https://example.com/document.pdf' },
+  runtimeContext: new RuntimeContext(),
+});
+
+// Step 2: Extract text
+const textResult = await textExtractorTool.execute({
+  context: { pdfBuffer: pdfResult.pdfBuffer },
+  runtimeContext: new RuntimeContext(),
+});
+
+// Step 3: Generate questions
+const questionsResult = await questionGeneratorTool.execute({
+  context: {
+    extractedText: textResult.extractedText,
+    maxQuestions: 10
+  },
+  mastra,
+  runtimeContext: new RuntimeContext(),
+});
+
+console.log(questionsResult.questions);
 ```
 
 ### Expected Output
@@ -82,7 +135,14 @@ console.log(result.result.questions);
 
 - **`pdfToQuestionsWorkflow`**: Main workflow orchestrating the process
 - **`questionGeneratorAgent`**: Mastra agent specialized in generating educational questions
+- **`pdfQuestionsAgent`**: Complete agent that can handle the full PDF to questions pipeline
 - **`simpleOCR`**: Pure JavaScript PDF text extraction (no system dependencies)
+
+### Tools
+
+- **`pdfFetcherTool`**: Downloads PDF files from URLs and returns buffers
+- **`textExtractorTool`**: Extracts text from PDF buffers using OCR
+- **`questionGeneratorTool`**: Generates comprehensive questions from extracted text
 
 ### Workflow Steps
 
@@ -95,8 +155,8 @@ console.log(result.result.questions);
 - ✅ **Zero System Dependencies**: Pure JavaScript solution
 - ✅ **Simple Setup**: Only requires OpenAI API key
 - ✅ **Fast Text Extraction**: Direct PDF parsing (no OCR needed for text-based PDFs)
-- ✅ **Single Path**: No complex fallbacks - simple and reliable
 - ✅ **Educational Focus**: Generates comprehensive learning questions
+- ✅ **Multiple Interfaces**: Workflow, Agent, and individual tools available
 
 ## How It Works
 
@@ -175,15 +235,22 @@ npx tsx example.ts
 
 ### "Failed to download PDF"
 
-- Verify the PDF URL is accessible
+- Verify the PDF URL is accessible and publicly available
 - Check network connectivity
 - Ensure the URL points to a valid PDF file
+- Some servers may require authentication or have restrictions
 
 ### "No text could be extracted"
 
 - The PDF might be password-protected
 - Very large PDFs might take longer to process
 - Scanned PDFs without embedded text won't work (rare with modern PDFs)
+
+### "Context length exceeded" or Token Limit Errors
+
+- **Solution**: Use a smaller PDF file (under ~5-10 pages)
+- **Automatic Truncation**: The tool automatically uses only the first 4000 characters for very large documents
+- **Helpful Errors**: Clear messages guide you to use smaller PDFs when needed
 
 ## What Makes This Template Special
 
@@ -192,20 +259,20 @@ npx tsx example.ts
 - Single dependency for PDF processing (`pdf2json`)
 - No system tools or complex setup required
 - Works immediately after `pnpm install`
-- Single straightforward workflow path
+- Multiple usage patterns (workflow, agent, tools)
 
 ### ⚡ **Performance**
 
 - Direct text extraction (no image conversion)
 - Much faster than OCR-based approaches
-- Handles large documents efficiently
+- Handles reasonably-sized documents efficiently
 
 ### 🔧 **Developer-Friendly**
 
 - Pure JavaScript/TypeScript
 - Easy to understand and modify
 - Clear separation of concerns
-- No complex branching or fallback logic
+- Simple error handling with helpful messages
 
 ### 📚 **Educational Value**
 

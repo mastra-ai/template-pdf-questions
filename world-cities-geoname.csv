@@ -1,0 +1,1048 @@
+popularity,geoname_id,name_en,country_code,population,latitude,longitude,country,region,continent,code2,code,province
+1437,3169070,Rome,IT,2563241,41.894741,12.483900,Italy,"Southern Europe",Europe,IT,ITA,Latium
+1346,2988507,Paris,FR,2138551,48.853409,2.348800,France,"Western Europe",Europe,FR,FRA,Île-de-France
+958,2643743,London,GB,7556900,51.508530,-0.125740,"United Kingdom","British Islands",Europe,GB,GBR,England
+943,3128760,Barcelona,ES,1621537,41.388790,2.158990,Spain,"Southern Europe",Europe,ES,ESP,Catalonia
+723,1609350,Bangkok,TH,5104476,13.753980,100.501442,Thailand,"Southeast Asia",Asia,TH,THA,Bangkok
+716,745044,İstanbul,TR,11174257,41.013840,28.949659,Turkey,"Middle East",Asia,TR,TUR,Istanbul
+696,2950159,Berlin,DE,3426354,52.524368,13.410530,Germany,"Western Europe",Europe,DE,DEU,Berlin
+632,3067696,Prague,CZ,1165581,50.088039,14.420760,"Czech Republic","Eastern Europe",Europe,CZ,CZE,Praha
+573,3176959,Firenze,IT,371517,43.766670,11.250000,Italy,"Southern Europe",Europe,IT,ITA,Tuscany
+490,3117735,Madrid,ES,3255944,40.416500,-3.702560,Spain,"Southern Europe",Europe,ES,ESP,Madrid
+380,3435910,"Buenos Aires",AR,13076300,-34.613152,-58.377232,Argentina,"South America","South America",AR,ARG,"Buenos Aires F.D."
+369,4167147,Orlando,US,238300,28.538340,-81.379242,"United States","North America","North America",US,USA,Florida
+342,2761369,Vienna,AT,1691468,48.208488,16.372080,Austria,"Western Europe",Europe,AT,AUT,Vienna
+327,3054643,Budapest,HU,1696128,47.498009,19.039909,Hungary,"Eastern Europe",Europe,HU,HUN,Budapest
+326,5128581,"New York City",US,8175133,40.714272,-74.005966,"United States","North America","North America",US,USA,"New York"
+320,2267057,Lisbon,PT,517802,38.716671,-9.133330,Portugal,"Southern Europe",Europe,PT,PRT,Lisbon
+315,292223,Dubai,AE,1137347,25.258169,55.304722,"United Arab Emirates","Middle East",Asia,AE,ARE,Dubai
+314,1850147,Tokyo,JP,8336599,35.689499,139.691711,Japan,"Eastern Asia",Asia,JP,JPN,Tōkyō
+312,2759794,Amsterdam,NL,741636,52.374031,4.889690,Netherlands,"Western Europe",Europe,NL,NLD,"North Holland"
+305,1835848,Seoul,KR,10349312,37.568260,126.977829,"South Korea","Eastern Asia",Asia,KR,KOR,Seoul
+301,2521088,Benidorm,ES,71034,38.538158,-0.130980,Spain,"Southern Europe",Europe,ES,ESP,Valencia
+284,1261481,"New Delhi",IN,317797,28.635759,77.224449,India,"Southern and Central Asia",Asia,IN,IND,NCT
+274,4164143,"Miami Beach",US,87779,25.790649,-80.130051,"United States","North America","North America",US,USA,Florida
+272,3521342,"Playa del Carmen",MX,100383,20.627399,-87.079872,Mexico,"Central America","North America",MX,MEX,"Quintana Roo"
+257,1153671,"Chiang Mai",TH,200952,18.790380,98.984680,Thailand,"Southeast Asia",Asia,TH,THA,"Chiang Mai"
+251,3688689,Bogotá,CO,7102602,4.609710,-74.081749,Colombia,"South America","South America",CO,COL,"Bogota D.C."
+251,3451190,"Rio de Janeiro",BR,6023699,-22.902781,-43.207500,Brazil,"South America","South America",BR,BRA,"Rio de Janeiro"
+248,4699066,Houston,US,2099451,29.763281,-95.363274,"United States","North America","North America",US,USA,Texas
+247,1796236,Shanghai,CN,14608512,31.222219,121.458061,China,"Eastern Asia",Asia,CN,CHN,"Shanghai Shi"
+246,2509954,Valencia,ES,814208,39.469749,-0.377390,Spain,"Southern Europe",Europe,ES,ESP,Valencia
+245,3169361,Rimini,IT,128656,44.063332,12.580830,Italy,"Southern Europe",Europe,IT,ITA,Emilia-Romagna
+243,1816670,Beijing,CN,7480601,39.907501,116.397232,China,"Eastern Asia",Asia,CN,CHN,Beijing
+242,1880252,Singapore,SG,3547809,1.289670,103.850067,Singapore,"Southeast Asia",Asia,SG,SGP,NULL
+241,1668341,Taipei,TW,7871900,25.047760,121.531853,Taiwan,"Eastern Asia",Asia,TW,TWN,Taipei
+234,2542997,Marrakesh,MA,839296,31.634159,-7.999940,Morocco,"Northern Africa",Africa,MA,MAR,"Marrakech-Tensift-Al Haouz"
+232,3448439,"São Paulo",BR,10021295,-23.547501,-46.636108,Brazil,"South America","South America",BR,BRA,"São Paulo"
+227,3530597,"Mexico City",MX,12294193,19.428471,-99.127663,Mexico,"Central America","North America",MX,MEX,"The Federal District"
+227,2650225,Edinburgh,GB,435791,55.952061,-3.196480,"United Kingdom","British Islands",Europe,GB,GBR,Scotland
+226,1581130,"Hà Nội",VN,1431270,21.024500,105.841171,Vietnam,"Southeast Asia",Asia,VN,VNM,"Ha Nội"
+226,1822214,"Khett Siem Reab",KH,139458,13.361790,103.860558,Cambodia,"Southeast Asia",Asia,KH,KHM,"Siem Reap"
+225,264371,Athens,GR,729137,37.979450,23.716221,Greece,"Southern Europe",Europe,GR,GRC,Attica
+214,3871336,Santiago,CL,4837295,-33.456940,-70.648270,Chile,"South America","South America",CL,CHL,Santiago
+213,6167865,Toronto,CA,4612191,43.700111,-79.416298,Canada,"North America","North America",CA,CAN,Ontario
+208,6354969,"Playa del Ingles",ES,17158,27.756701,-15.578700,Spain,"Southern Europe",Europe,ES,ESP,"Canary Islands"
+206,3094802,Kraków,PL,755050,50.061432,19.936581,Poland,"Eastern Europe",Europe,PL,POL,"Lesser Poland Voivodeship"
+205,2272222,Albufeira,PT,15851,37.088188,-8.250300,Portugal,"Southern Europe",Europe,PT,PRT,Faro
+197,2911298,Hamburg,DE,1739117,53.575321,10.015340,Germany,"Western Europe",Europe,DE,DEU,"Free and Hanseatic City of Hamburg"
+196,324190,Alanya,TR,112969,36.543751,31.999821,Turkey,"Middle East",Asia,TR,TUR,Antalya
+194,1735161,"Kuala Lumpur",MY,1453975,3.141200,101.686531,Malaysia,"Southeast Asia",Asia,MY,MYS,"Kuala Lumpur"
+192,5391959,"San Francisco",US,805235,37.774929,-122.419418,"United States","North America","North America",US,USA,California
+191,6077243,Montréal,CA,3268513,45.508839,-73.587807,Canada,"North America","North America",CA,CAN,Quebec
+188,304782,Marmaris,TR,33731,36.855000,28.274170,Turkey,"Middle East",Asia,TR,TUR,Muğla
+183,2800866,Brussels,BE,1019022,50.850449,4.348780,Belgium,"Western Europe",Europe,BE,BEL,"Brussels Capital Region"
+182,2964574,Dublin,IE,1024027,53.333061,-6.248890,Ireland,"British Islands",Europe,IE,IRL,Leinster
+180,2267827,Funchal,PT,100847,32.633331,-16.900000,Portugal,"Southern Europe",Europe,PT,PRT,Madeira
+179,1857910,Kyoto,JP,1459640,35.021069,135.753845,Japan,"Eastern Asia",Asia,JP,JPN,Kyōto
+178,1622846,Ubud,ID,28373,-8.509800,115.265404,Indonesia,"Southeast Asia",Asia,ID,IDN,Bali
+177,4726206,"San Antonio",US,1327407,29.424120,-98.493629,"United States","North America","North America",US,USA,Texas
+177,2990440,Nice,FR,338620,43.703129,7.266080,France,"Western Europe",Europe,FR,FRA,"Provence-Alpes-Côte d'Azur"
+171,2867714,München,DE,1260391,48.137428,11.575490,Germany,"Western Europe",Europe,DE,DEU,Bavaria
+170,254352,Réthymno,GR,29907,35.366871,24.474871,Greece,"Southern Europe",Europe,GR,GRC,Crete
+169,3936456,Lima,PE,7737002,-12.043180,-77.028236,Peru,"South America","South America",PE,PER,"Provincia de Lima"
+169,146214,Paphos,CY,35961,34.766670,32.416672,Cyprus,"Middle East",Asia,CY,CYP,Pafos
+164,3494242,"Punta Cana",DO,100023,18.581820,-68.404312,"Dominican Republic",Caribbean,"North America",DO,DOM,"San Juan"
+164,301238,Side,TR,10505,36.766670,31.388889,Turkey,"Middle East",Asia,TR,TUR,Antalya
+161,6173331,Vancouver,CA,1837969,49.249660,-123.119339,Canada,"North America","North America",CA,CAN,"British Columbia"
+161,2673730,Stockholm,SE,1253309,59.332581,18.064899,Sweden,"Nordic Countries",Europe,SE,SWE,Stockholm
+159,5391811,"San Diego",US,1307402,32.715328,-117.157257,"United States","North America","North America",US,USA,California
+152,3173435,Milan,IT,1306661,45.464272,9.189510,Italy,"Southern Europe",Europe,IT,ITA,Lombardy
+152,1639002,Kuta,ID,30012,-8.723320,115.172340,Indonesia,"Southeast Asia",Asia,ID,IDN,Bali
+148,3531673,Cancún,MX,542043,21.174290,-86.846558,Mexico,"Central America","North America",MX,MEX,"Quintana Roo"
+146,321580,Belek,TR,73260,36.862782,31.055559,Turkey,"Middle East",Asia,TR,TUR,Antalya
+142,2735943,Porto,PT,249633,41.149609,-8.610990,Portugal,"Southern Europe",Europe,PT,PRT,Porto
+141,1642911,Jakarta,ID,8540121,-6.214620,106.845131,Indonesia,"Southeast Asia",Asia,ID,IDN,"Jakarta Raya"
+141,2514256,Málaga,ES,568305,36.720161,-4.420340,Spain,"Southern Europe",Europe,ES,ESP,Andalusia
+140,1614295,Phatthaya,TH,97296,12.933330,100.883331,Thailand,"Southeast Asia",Asia,TH,THA,"Chon Buri"
+139,1275339,Mumbai,IN,12691836,19.072830,72.882607,India,"Southern and Central Asia",Asia,IN,IND,Mahārāshtra
+139,1821306,"Phnom Penh",KH,1573544,11.562450,104.916008,Cambodia,"Southeast Asia",Asia,KH,KHM,"Phnom Penh"
+138,1809858,Guangzhou,CN,3152825,23.116671,113.250000,China,"Eastern Asia",Asia,CN,CHN,"Guangdong Province"
+136,5506956,"Las Vegas",US,583756,36.174969,-115.137222,"United States","North America","North America",US,USA,Nevada
+134,3110986,Salou,ES,26649,41.076630,1.141630,Spain,"Southern Europe",Europe,ES,ESP,Catalonia
+133,2510911,Sevilla,ES,703206,37.382408,-5.976130,Spain,"Southern Europe",Europe,ES,ESP,Andalusia
+133,3166350,Sorrento,IT,16536,40.626011,14.374410,Italy,"Southern Europe",Europe,IT,ITA,Campania
+132,5368361,"Los Angeles",US,3792621,34.052231,-118.243683,"United States","North America","North America",US,USA,California
+132,3369157,"Cape Town",ZA,3433441,-33.925838,18.423220,"South Africa","Southern Africa",Africa,ZA,ZAF,"Western Cape"
+132,1853909,Ōsaka-shi,JP,2592413,34.693741,135.502182,Japan,"Eastern Asia",Asia,JP,JPN,Ōsaka
+131,4259418,Indianapolis,US,829718,39.768379,-86.158043,"United States","North America","North America",US,USA,Indiana
+130,524901,Moscow,RU,10381222,55.752220,37.615559,"Russian Federation","Eastern Europe",Europe,RU,RUS,Moscow
+129,4180439,Atlanta,US,420003,33.749001,-84.387978,"United States","North America","North America",US,USA,Georgia
+129,2655459,Blackpool,GB,143101,53.816669,-3.050000,"United Kingdom","British Islands",Europe,GB,GBR,England
+128,2523920,Palermo,IT,672175,38.115822,13.359760,Italy,"Southern Europe",Europe,IT,ITA,Sicily
+124,4155966,"Fort Lauderdale",US,165521,26.122311,-80.143379,"United States","North America","North America",US,USA,Florida
+123,2514169,Marbella,ES,134623,36.515430,-4.885830,Spain,"Southern Europe",Europe,ES,ESP,Andalusia
+122,6355013,"Puerto del Carmen",ES,30000,28.923130,-13.665790,Spain,"Southern Europe",Europe,ES,ESP,"Canary Islands"
+121,4684888,Dallas,US,1197816,32.783058,-96.806671,"United States","North America","North America",US,USA,Texas
+121,787487,Ohrid,MK,54908,41.117222,20.801941,Macedonia,"Southern Europe",Europe,MK,MKD,Ohrid
+120,3118212,"Lloret de Mar",ES,39363,41.699928,2.845650,Spain,"Southern Europe",Europe,ES,ESP,Catalonia
+119,3164603,Venezia,IT,270816,45.438610,12.326670,Italy,"Southern Europe",Europe,IT,ITA,Veneto
+119,1153269,"Hua Hin",TH,50456,12.570650,99.958763,Thailand,"Southeast Asia",Asia,TH,THA,"Prachuap Khiri Khan"
+117,1269515,Jaipur,IN,2711758,26.919621,75.787811,India,"Southern and Central Asia",Asia,IN,IND,Rajasthan
+117,3172394,Napoli,IT,988972,40.833328,14.250000,Italy,"Southern Europe",Europe,IT,ITA,Campania
+116,1819729,"Hong Kong",HK,7012738,22.285521,114.157692,"Hong Kong","Eastern Asia",Asia,HK,HKG,NULL
+116,2510281,Torremolinos,ES,65448,36.620350,-4.499760,Spain,"Southern Europe",Europe,ES,ESP,Andalusia
+116,305359,Kuşadası,TR,63177,37.855621,27.256599,Turkey,"Middle East",Asia,TR,TUR,Aydın
+115,1566083,"Ho Chi Minh City",VN,3467331,10.750000,106.666672,Vietnam,"Southeast Asia",Asia,VN,VNM,"Hồ Chí Minh"
+114,4588718,"Myrtle Beach",US,27109,33.689060,-78.886688,"United States","North America","North America",US,USA,"South Carolina"
+113,4887398,Chicago,US,2695598,41.850029,-87.650047,"United States","North America","North America",US,USA,Illinois
+113,2618425,Copenhagen,DK,1153615,55.675941,12.565530,Denmark,"Nordic Countries",Europe,DK,DNK,"Capital Region"
+113,3201047,Dubrovnik,HR,28428,42.648071,18.092159,Croatia,"Southern Europe",Europe,HR,HRV,Dubrovačko-Neretvanska
+112,3991328,"Puerto Vallarta",MX,187134,20.620411,-105.230659,Mexico,"Central America","North America",MX,MEX,Jalisco
+111,756135,Warsaw,PL,1702139,52.229771,21.011780,Poland,"Eastern Europe",Europe,PL,POL,"Masovian Voivodeship"
+110,323777,Antalya,TR,758188,36.908119,30.695560,Turkey,"Middle East",Asia,TR,TUR,Antalya
+109,3450554,Salvador,BR,2711840,-12.971110,-38.510830,Brazil,"South America","South America",BR,BRA,"Estado de Bahía"
+108,5913490,Calgary,CA,1019942,51.050110,-114.085289,Canada,"North America","North America",CA,CAN,Alberta
+107,3687238,Cartagena,CO,952024,10.399720,-75.514442,Colombia,"South America","South America",CO,COL,Bolívar
+106,456172,Riga,LV,742572,56.945999,24.105890,Latvia,"Baltic Countries",Europe,LV,LVA,Rīga
+106,3941584,Cusco,PE,312140,-13.522640,-71.967339,Peru,"South America","South America",PE,PER,Cusco
+106,293397,"Tel Aviv",IL,250000,32.080879,34.780571,Israel,"Middle East",Asia,IL,ISR,"Tel Aviv"
+105,292968,"Abu Dhabi",AE,603492,24.466669,54.366669,"United Arab Emirates","Middle East",Asia,AE,ARE,"Abu Dhabi"
+105,3164527,Verona,IT,253208,45.434189,10.997790,Italy,"Southern Europe",Europe,IT,ITA,Veneto
+104,4460243,Charlotte,US,731424,35.227089,-80.843132,"United States","North America","North America",US,USA,"North Carolina"
+103,4005539,Guadalajara,MX,1640589,20.666670,-103.333328,Mexico,"Central America","North America",MX,MEX,Jalisco
+103,2517117,Granada,ES,234325,37.188171,-3.606670,Spain,"Southern Europe",Europe,ES,ESP,Andalusia
+102,3513090,Willemstad,CW,125000,12.108400,-68.933540,Curacao,NULL,"North America",CW,CUW,NULL
+101,2886242,Köln,DE,963395,50.933331,6.950000,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+101,320995,Bodrum,TR,39317,37.038330,27.429171,Turkey,"Middle East",Asia,TR,TUR,Muğla
+100,1795565,Shenzhen,CN,3000000,22.545540,114.068298,China,"Eastern Asia",Asia,CN,CHN,"Guangdong Province"
+100,5308655,Phoenix,US,1445632,33.448380,-112.074043,"United States","North America","North America",US,USA,Arizona
+100,3413829,Reykjavík,IS,113906,64.135483,-21.895411,Iceland,"Nordic Countries",Europe,IS,ISL,"Capital Region"
+100,3513563,Kralendijk,BQ,3081,12.150000,-68.266670,"Bonaire, Saint Eustatius and Saba",Caribbean,"North America",BQ,BES,Bonaire
+99,3181928,Bologna,IT,371217,44.493809,11.338750,Italy,"Southern Europe",Europe,IT,ITA,Emilia-Romagna
+99,4335045,"New Orleans",US,343829,29.954651,-90.075073,"United States","North America","North America",US,USA,Louisiana
+96,2512989,Palma,ES,401270,39.569389,2.650240,Spain,"Southern Europe",Europe,ES,ESP,"Balearic Islands"
+95,4509177,Columbus,US,787033,39.961182,-82.998787,"United States","North America","North America",US,USA,Ohio
+93,308220,Kemer,TR,17300,36.597778,30.560560,Turkey,"Middle East",Asia,TR,TUR,Antalya
+92,1572151,"Nha Trang",VN,283441,12.250000,109.183327,Vietnam,"Southeast Asia",Asia,VN,VNM,"Khánh Hòa"
+91,2996944,Lyon,FR,472317,45.748459,4.846710,France,"Western Europe",Europe,FR,FRA,Rhône-Alpes
+91,4164138,Miami,US,399457,25.774269,-80.193657,"United States","North America","North America",US,USA,Florida
+90,5454711,Albuquerque,US,545852,35.084492,-106.651138,"United States","North America","North America",US,USA,"New Mexico"
+90,3463237,Florianópolis,BR,412724,-27.596670,-48.549171,Brazil,"South America","South America",BR,BRA,"Santa Catarina"
+90,2512196,"Puerto de la Cruz",ES,32219,28.413971,-16.548670,Spain,"Southern Europe",Europe,ES,ESP,"Canary Islands"
+89,3165524,Turin,IT,865263,45.070492,7.686820,Italy,"Southern Europe",Europe,IT,ITA,Piedmont
+89,2934246,Düsseldorf,DE,573057,51.221722,6.776160,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+89,4174757,Tampa,US,335709,27.947519,-82.458427,"United States","North America","North America",US,USA,Florida
+88,4160983,Kissimmee,US,59682,28.304680,-81.416672,"United States","North America","North America",US,USA,Florida
+87,5318313,Tucson,US,520116,32.221741,-110.926483,"United States","North America","North America",US,USA,Arizona
+86,3674962,Medellín,CO,1999979,6.251840,-75.563591,Colombia,"South America","South America",CO,COL,"Departamento de Antioquia"
+86,2561668,Agadir,MA,698310,30.420179,-9.598150,Morocco,"Northern Africa",Africa,MA,MAR,Souss-Massa-Drâa
+86,4644585,Nashville,US,530852,36.165890,-86.784439,"United States","North America","North America",US,USA,Tennessee
+86,2935022,Dresden,DE,486854,51.050892,13.738320,Germany,"Western Europe",Europe,DE,DEU,Saxony
+86,3028808,Cannes,FR,70011,43.551350,7.012750,France,"Western Europe",Europe,FR,FRA,"Provence-Alpes-Côte d'Azur"
+85,4930956,Boston,US,617594,42.358429,-71.059769,"United States","North America","North America",US,USA,Massachusetts
+85,260114,Chaniá,GR,54565,35.511238,24.029209,Greece,"Southern Europe",Europe,GR,GRC,Crete
+84,3464975,Curitiba,BR,1718421,-25.427780,-49.273060,Brazil,"South America","South America",BR,BRA,Paraná
+84,1283240,Kathmandu,NP,1442271,27.701691,85.320602,Nepal,"Southern and Central Asia",Asia,NP,NPL,"Central Region"
+84,5946768,Edmonton,CA,712391,53.550140,-113.468712,Canada,"North America","North America",CA,CAN,Alberta
+84,4140963,"Washington, D. C.",US,601723,38.895111,-77.036369,"United States","North America","North America",US,USA,"Washington, D.C."
+84,1580541,"Hội An",VN,32757,15.879440,108.334999,Vietnam,"Southeast Asia",Asia,VN,VNM,"Quảng Nam"
+84,1152633,Krabi,TH,31219,8.072570,98.910522,Thailand,"Southeast Asia",Asia,TH,THA,Krabi
+83,1808926,Hangzhou,CN,1878129,30.293650,120.161423,China,"Eastern Asia",Asia,CN,CHN,"Zhejiang Sheng"
+83,4160021,Jacksonville,US,821784,30.332180,-81.655647,"United States","North America","North America",US,USA,Florida
+83,2800931,Brugge,BE,116709,51.208920,3.224240,Belgium,"Western Europe",Europe,BE,BEL,Flanders
+83,3169424,Riccione,IT,33887,43.999420,12.656890,Italy,"Southern Europe",Europe,IT,ITA,Emilia-Romagna
+81,5419384,Denver,US,600158,39.739151,-104.984703,"United States","North America","North America",US,USA,Colorado
+81,2972315,Toulouse,FR,433055,43.604259,1.443670,France,"Western Europe",Europe,FR,FRA,Midi-Pyrénées
+81,5323810,Anaheim,US,336265,33.835289,-117.914497,"United States","North America","North America",US,USA,California
+80,5809844,Seattle,US,608660,47.606209,-122.332069,"United States","North America","North America",US,USA,Washington
+80,4221552,Savannah,US,136286,32.083542,-81.099831,"United States","North America","North America",US,USA,Georgia
+79,1583992,Turan,VN,752493,16.067780,108.220833,Vietnam,"Southeast Asia",Asia,VN,VNM,"Đà Nẵng"
+79,3190261,Split,HR,176314,43.508911,16.439150,Croatia,"Southern Europe",Europe,HR,HRV,Splitsko-Dalmatinska
+78,1838524,Busan,KR,3678555,35.102779,129.040283,"South Korea","Eastern Asia",Asia,KR,KOR,Busan
+78,703448,Kiev,UA,2514227,50.454659,30.523800,Ukraine,"Eastern Europe",Europe,UA,UKR,"Kyiv City"
+78,3399415,Fortaleza,BR,2400000,-3.717220,-38.543060,Brazil,"South America","South America",BR,BRA,Ceará
+78,3470127,"Belo Horizonte",BR,2373224,-19.920830,-43.937778,Brazil,"South America","South America",BR,BRA,"Minas Gerais"
+78,3652462,Quito,EC,1399814,-0.229850,-78.524948,Ecuador,"South America","South America",EC,ECU,Pichincha
+78,4671654,Austin,US,790390,30.267151,-97.743057,"United States","North America","North America",US,USA,Texas
+78,7647007,"San Carlos de Bariloche",AR,95394,-41.145569,-71.308220,Argentina,"South America","South America",AR,ARG,"Río Negro"
+78,2517595,Fuengirola,ES,71482,36.539982,-4.624730,Spain,"Southern Europe",Europe,ES,ESP,Andalusia
+78,263824,"Ágios Nikólaos",GR,11421,35.191059,25.715240,Greece,"Southern Europe",Europe,GR,GRC,Crete
+77,6087892,"Niagara Falls",CA,82000,43.100121,-79.066269,Canada,"North America","North America",CA,CAN,Ontario
+76,2128295,Sapporo,JP,1883027,43.064171,141.346939,Japan,"Eastern Asia",Asia,JP,JPN,Hokkaidō
+75,4544349,"Oklahoma City",US,579999,35.467560,-97.516434,"United States","North America","North America",US,USA,Oklahoma
+75,4393217,"Kansas City",US,459787,39.099731,-94.578568,"United States","North America","North America",US,USA,Missouri
+75,2766824,Salzburg,AT,150269,47.799412,13.043990,Austria,"Western Europe",Europe,AT,AUT,Salzburg
+75,2633352,York,GB,144202,53.957630,-1.082710,"United Kingdom","British Islands",Europe,GB,GBR,England
+75,314967,Fethiye,TR,60437,36.621670,29.116390,Turkey,"Middle East",Asia,TR,TUR,Muğla
+75,3172996,Montecatini-Terme,IT,19900,43.883549,10.773610,Italy,"Southern Europe",Europe,IT,ITA,Tuscany
+74,1733432,"Kota Kinabalu",MY,457326,5.974900,116.072403,Malaysia,"Southeast Asia",Asia,MY,MYS,Sabah
+74,4791259,"Virginia Beach",US,437994,36.852928,-75.977982,"United States","North America","North America",US,USA,Virginia
+73,727011,Sofia,BG,1152556,42.697510,23.324150,Bulgaria,"Eastern Europe",Europe,BG,BGR,Sofia-Capital
+73,2995469,Marseille,FR,794811,43.296951,5.381070,France,"Western Europe",Europe,FR,FRA,"Provence-Alpes-Côte d'Azur"
+72,3441575,Montevideo,UY,1270737,-34.833462,-56.167351,Uruguay,"South America","South America",UY,URY,Montevideo
+72,3394023,Natal,BR,763043,-5.795000,-35.209438,Brazil,"South America","South America",BR,BRA,"Rio Grande do Norte"
+72,2648579,Glasgow,GB,610268,55.865150,-4.257630,"United Kingdom","British Islands",Europe,GB,GBR,Scotland
+72,2657896,Zürich,CH,341730,47.366669,8.550000,Switzerland,"Western Europe",Europe,CH,CHE,Zurich
+72,2521139,Benalmádena,ES,58854,36.595482,-4.569370,Spain,"Southern Europe",Europe,ES,ESP,Andalusia
+72,5397664,"South Lake Tahoe",US,21403,38.933239,-119.984352,"United States","North America","North America",US,USA,California
+71,1863967,Fukuoka-shi,JP,1392289,33.606392,130.418060,Japan,"Eastern Asia",Asia,JP,JPN,Fukuoka
+71,4691930,"Fort Worth",US,741206,32.725410,-97.320847,"United States","North America","North America",US,USA,Texas
+71,3173529,Mestre,IT,176000,45.490280,12.242500,Italy,"Southern Europe",Europe,IT,ITA,Veneto
+70,4299276,Louisville,US,243639,38.254238,-85.759407,"United States","North America","North America",US,USA,Kentucky
+69,5856195,Honolulu,US,371657,21.306940,-157.858337,"United States","North America","North America",US,USA,Hawaii
+69,2521978,Alicante,ES,334757,38.345169,-0.481490,Spain,"Southern Europe",Europe,ES,ESP,Valencia
+69,3534632,Varadero,CU,20000,23.153610,-81.251389,Cuba,Caribbean,"North America",CU,CUB,Matanzas
+69,4165565,Naples,US,19537,26.142040,-81.794807,"United States","North America","North America",US,USA,Florida
+68,2643123,Manchester,GB,395515,53.480949,-2.237430,"United Kingdom","British Islands",Europe,GB,GBR,England
+68,2473744,"Al Ḩammāmāt",TN,53733,36.400002,10.616670,Tunisia,"Northern Africa",Africa,TN,TUN,Nābul
+67,698740,Odessa,UA,1001558,46.477470,30.732620,Ukraine,"Eastern Europe",Europe,UA,UKR,"Odes’ka Oblast’"
+67,3143244,Oslo,NO,580000,59.912731,10.746090,Norway,"Nordic Countries",Europe,NO,NOR,"Oslo County"
+67,4553433,Tulsa,US,391906,36.153980,-95.992783,"United States","North America","North America",US,USA,Oklahoma
+66,250441,Amman,JO,1275857,31.955219,35.945030,Jordan,"Middle East",Asia,JO,JOR,Amman
+66,281184,Jerusalem,IL,714000,31.769039,35.216331,Israel,"Middle East",Asia,IL,ISR,"Jerusalem District"
+65,1264527,Chennai,IN,4328063,13.087840,80.278473,India,"Southern and Central Asia",Asia,IN,IND,"Tamil Nādu"
+65,2511716,"Roquetas de Mar",ES,82665,36.764191,-2.614750,Spain,"Southern Europe",Europe,ES,ESP,Andalusia
+63,108410,Riyadh,SA,4205961,24.687731,46.721851,"Saudi Arabia","Middle East",Asia,SA,SAU,"Ar Riyāḑ"
+63,1815286,Chengdu,CN,3950437,30.666670,104.066673,China,"Eastern Asia",Asia,CN,CHN,Sichuan
+63,1650357,Bandung,ID,1699719,-6.903890,107.618607,Indonesia,"Southeast Asia",Asia,ID,IDN,"West Java"
+63,1673820,Kaohsiung,TW,1519711,22.616261,120.313332,Taiwan,"Eastern Asia",Asia,TW,TWN,Kaohsiung
+63,3452925,"Porto Alegre",BR,1372741,-30.033060,-51.230000,Brazil,"South America","South America",BR,BRA,"Rio Grande do Sul"
+63,3523349,Mérida,MX,717175,20.966669,-89.616669,Mexico,"Central America","North America",MX,MEX,Yucatán
+63,290030,Doha,QA,344939,25.279320,51.522449,Qatar,"Middle East",Asia,QA,QAT,"Ad Dawḩah"
+63,3170647,Pisa,IT,89694,43.715530,10.396590,Italy,"Southern Europe",Europe,IT,ITA,Tuscany
+63,4160812,"Key West",US,24649,24.555700,-81.782593,"United States","North America","North America",US,USA,Florida
+62,3947322,Arequipa,PE,841130,-16.398890,-71.535004,Peru,"South America","South America",PE,PER,"Arequipa Region"
+62,1273874,Cochin,IN,604696,9.939880,76.260223,India,"Southern and Central Asia",Asia,IN,IND,Kerala
+62,2910831,Hannover,DE,515140,52.370522,9.733220,Germany,"Western Europe",Europe,DE,DEU,"Lower Saxony"
+62,3489460,"Montego Bay",JM,82867,18.471161,-77.918831,Jamaica,Caribbean,"North America",JM,JAM,"Saint James"
+61,3174530,Lucca,IT,81862,43.843571,10.505850,Italy,"Southern Europe",Europe,IT,ITA,Tuscany
+61,2520496,Calp,ES,29666,38.644699,0.044500,Spain,"Southern Europe",Europe,ES,ESP,Valencia
+60,683506,Bucharest,RO,1877155,44.432251,26.106260,Romania,"Eastern Europe",Europe,RO,ROM,Bucureşti
+60,4641239,Memphis,US,646889,35.149529,-90.048981,"United States","North America","North America",US,USA,Tennessee
+60,2644210,Liverpool,GB,468945,53.410580,-2.977940,"United Kingdom","British Islands",Europe,GB,GBR,England
+60,3668605,"Santa Marta",CO,431781,11.240790,-74.199043,Colombia,"South America","South America",CO,COL,Magdalena
+60,148730,Zanzibar,TZ,403658,-6.163940,39.197929,Tanzania,"Eastern Africa",Africa,TZ,TZA,"Zanzibar Urban/West"
+60,588409,Tallinn,EE,394024,59.436958,24.753531,Estonia,"Baltic Countries",Europe,EE,EST,"Harju County"
+60,2267226,Lagos,PT,18831,37.102020,-8.674220,Portugal,"Southern Europe",Europe,PT,PRT,Faro
+59,3166548,Siena,IT,52625,43.320042,11.332830,Italy,"Southern Europe",Europe,IT,ITA,Tuscany
+58,5389489,Sacramento,US,466488,38.581570,-121.494400,"United States","North America","North America",US,USA,California
+58,4700168,Irving,US,216290,32.814018,-96.948891,"United States","North America","North America",US,USA,Texas
+58,2513240,Nerja,ES,21811,36.752781,-3.874400,Spain,"Southern Europe",Europe,ES,ESP,Andalusia
+57,3687925,Cali,CO,2392877,3.437220,-76.522499,Colombia,"South America","South America",CO,COL,"Valle del Cauca"
+57,2655603,Birmingham,GB,984333,52.481419,-1.899830,"United Kingdom","British Islands",Europe,GB,GBR,England
+57,3844421,Mendoza,AR,876884,-32.890839,-68.827171,Argentina,"South America","South America",AR,ARG,Mendoza
+57,3060972,Bratislava,SK,423737,48.148159,17.106741,Slovakia,"Eastern Europe",Europe,SK,SVK,Bratislavský
+56,1279259,Āgra,IN,1430055,27.183331,78.016670,India,"Southern and Central Asia",Asia,IN,IND,"Uttar Pradesh"
+56,792680,Belgrade,RS,1273651,44.804008,20.465130,"Republic of Serbia",,Europe,RS,SRB,"Central Serbia"
+56,2825297,Stuttgart,DE,589793,48.782318,9.177020,Germany,"Western Europe",Europe,DE,DEU,"Baden-Württemberg Region"
+56,2519240,Córdoba,ES,328428,37.883331,-4.766670,Spain,"Southern Europe",Europe,ES,ESP,Andalusia
+56,3182722,Assisi,IT,25304,43.069141,12.616460,Italy,"Southern Europe",Europe,IT,ITA,Umbria
+55,2879139,Leipzig,DE,504971,51.339619,12.371290,Germany,"Western Europe",Europe,DE,DEU,Saxony
+55,3099434,Gdańsk,PL,461865,54.352051,18.646370,Poland,"Eastern Europe",Europe,PL,POL,"Pomeranian Voivodeship"
+55,2803138,Antwerpen,BE,459805,51.219891,4.403460,Belgium,"Western Europe",Europe,BE,BEL,Flanders
+55,4487042,Raleigh,US,403892,35.772099,-78.638611,"United States","North America","North America",US,USA,"North Carolina"
+55,1856035,Naha-shi,JP,300795,26.212500,127.681107,Japan,"Eastern Asia",Asia,JP,JPN,Okinawa
+55,2973783,Strasbourg,FR,274845,48.583420,7.742960,France,"Western Europe",Europe,FR,FRA,Alsace
+55,5313457,Scottsdale,US,217385,33.509209,-111.899033,"United States","North America","North America",US,USA,Arizona
+55,5490263,"Santa Fe",US,67947,35.686981,-105.937798,"United States","North America","North America",US,USA,"New Mexico"
+55,4152872,"Daytona Beach",US,61005,29.210810,-81.022827,"United States","North America","North America",US,USA,Florida
+54,1269843,Hyderābād,IN,3597816,17.384050,78.456360,India,"Southern and Central Asia",Asia,IN,IND,"Andhra Pradesh"
+54,3995402,Morelia,MX,592797,19.700781,-101.184433,Mexico,"Central America","North America",MX,MEX,Michoacán
+54,5780993,"Salt Lake City",US,186440,40.760780,-111.891052,"United States","North America","North America",US,USA,Utah
+54,2269594,Cascais,PT,36436,38.697899,-9.421460,Portugal,"Southern Europe",Europe,PT,PRT,Lisbon
+53,1819609,Kowloon,HK,2019533,22.316669,114.183327,"Hong Kong","Eastern Asia",Asia,HK,HKG,NULL
+53,2747891,Rotterdam,NL,598199,51.922501,4.479170,Netherlands,"Western Europe",Europe,NL,NLD,"South Holland"
+53,5417598,"Colorado Springs",US,416427,38.833881,-104.821358,"United States","North America","North America",US,USA,Colorado
+53,1846266,Jeju,KR,408364,33.509720,126.521942,"South Korea","Eastern Asia",Asia,KR,KOR,Jeju
+53,3383330,Paramaribo,SR,223757,5.866380,-55.166821,Suriname,"South America","South America",SR,SUR,Paramaribo
+53,3931276,Puno,PE,116552,-15.842200,-70.019897,Peru,"South America","South America",PE,PER,"Puno Region"
+53,3985344,"San Miguel de Allende",MX,66311,20.916670,-100.750000,Mexico,"Central America","North America",MX,MEX,Guanajuato
+52,3657509,Guayaquil,EC,1952029,-2.181940,-79.891670,Ecuador,"South America","South America",EC,ECU,Guayas
+52,5746545,Portland,US,583776,45.523449,-122.676208,"United States","North America","North America",US,USA,Oregon
+52,4634946,Knoxville,US,178874,35.960640,-83.920738,"United States","North America","North America",US,USA,Tennessee
+51,5520993,"El Paso",US,649121,31.758720,-106.486931,"United States","North America","North America",US,USA,Texas
+51,3031582,Bordeaux,FR,231844,44.840439,-0.580500,France,"Western Europe",Europe,FR,FRA,Aquitaine
+51,4612862,Chattanooga,US,167674,35.045631,-85.309677,"United States","North America","North America",US,USA,Tennessee
+51,2655095,Bournemouth,GB,163600,50.720482,-1.879500,"United Kingdom","British Islands",Europe,GB,GBR,England
+51,4575352,Columbia,US,129272,34.000710,-81.034813,"United States","North America","North America",US,USA,"South Carolina"
+51,3182164,Bergamo,IT,113143,45.697979,9.668950,Italy,"Southern Europe",Europe,IT,ITA,Lombardy
+51,3985710,"Cabo San Lucas",MX,42601,22.890881,-109.912376,Mexico,"Central America","North America",MX,MEX,"Baja California Sur"
+51,3372783,"Ponta Delgada",PT,20056,37.733330,-25.666670,Portugal,"Southern Europe",Europe,PT,PRT,Azores
+50,1856057,Nagoya-shi,JP,2191279,35.181469,136.906403,Japan,"Eastern Asia",Asia,JP,JPN,Aichi
+50,4560349,Philadelphia,US,1526006,39.952339,-75.163788,"United States","North America","North America",US,USA,Pennsylvania
+50,1886760,Suzhou,CN,1343091,31.304079,120.595383,China,"Eastern Asia",Asia,CN,CHN,"Jiangsu Sheng"
+50,593116,Vilnius,LT,542366,54.689159,25.279800,Lithuania,"Baltic Countries",Europe,LT,LTU,"Vilniaus Apskritis"
+50,4568127,"San Juan",PR,418140,18.466330,-66.105721,"Puerto Rico",Caribbean,"North America",PR,PRI,"San Juan"
+50,6174041,Victoria,CA,289625,48.432941,-123.369301,Canada,"North America","North America",CA,CAN,"British Columbia"
+50,1580240,Huế,VN,287217,16.466669,107.599998,Vietnam,"Southeast Asia",Asia,VN,VNM,"Thừa Thiên-Huế"
+50,4409896,Springfield,US,159498,37.215328,-93.298241,"United States","North America","North America",US,USA,Missouri
+50,4574324,Charleston,US,120083,32.776569,-79.930923,"United States","North America","North America",US,USA,"South Carolina"
+50,5380668,"Palm Springs",US,44552,33.830299,-116.545288,"United States","North America","North America",US,USA,California
+50,5374361,Monterey,US,27810,36.600239,-121.894676,"United States","North America","North America",US,USA,California
+49,1259229,Pune,IN,2935744,18.519569,73.855347,India,"Southern and Central Asia",Asia,IN,IND,Mahārāshtra
+49,311046,İzmir,TR,2500603,38.412731,27.138380,Turkey,"Middle East",Asia,TR,TUR,İzmir
+49,2747373,"The Hague",NL,474292,52.076672,4.298610,Netherlands,"Western Europe",Europe,NL,NLD,"South Holland"
+49,4464368,Durham,US,228330,35.994030,-78.898621,"United States","North America","North America",US,USA,"North Carolina"
+49,4431410,Jackson,US,173514,32.298759,-90.184807,"United States","North America","North America",US,USA,Mississippi
+49,2522876,Trapani,IT,68346,38.015839,12.510770,Italy,"Southern Europe",Europe,IT,ITA,Sicily
+48,3469058,Brasília,BR,2207718,-15.779720,-47.929722,Brazil,"South America","South America",BR,BRA,"Federal District"
+48,6094817,Ottawa,CA,812129,45.411171,-75.698120,Canada,"North America","North America",CA,CAN,Ontario
+48,5074472,Omaha,US,408958,41.258610,-95.937790,"United States","North America","North America",US,USA,Nebraska
+48,4281730,Wichita,US,382368,37.692242,-97.337540,"United States","North America","North America",US,USA,Kansas
+48,5206379,Pittsburgh,US,305704,40.440620,-79.995888,"United States","North America","North America",US,USA,Pennsylvania
+48,4049979,Birmingham,US,212237,33.520660,-86.802490,"United States","North America","North America",US,USA,Alabama
+48,1153807,Cha-am,TH,49375,12.800000,99.966667,Thailand,"Southeast Asia",Asia,TH,THA,Phetchaburi
+47,1792947,Tianjin,CN,3766207,39.142220,117.176666,China,"Eastern Asia",Asia,CN,CHN,"Tianjin Shi"
+47,323786,Ankara,TR,3517182,39.919868,32.854271,Turkey,"Middle East",Asia,TR,TUR,Ankara
+47,1668399,Taichung,TW,1040725,24.146900,120.683899,Taiwan,"Eastern Asia",Asia,TW,TWN,Taiwan
+47,4683416,"Corpus Christi",US,305215,27.800579,-97.396378,"United States","North America","North America",US,USA,Texas
+47,1270642,Gurgaon,IN,197340,28.460100,77.026352,India,"Southern and Central Asia",Asia,IN,IND,Haryana
+47,290340,Manama,BH,147074,26.215361,50.583199,Bahrain,"Middle East",Asia,BH,BHR,Capital
+47,2654710,Brighton,GB,139001,50.828381,-0.139470,"United Kingdom","British Islands",Europe,GB,GBR,England
+47,5392952,"Santa Barbara",US,88410,34.420830,-119.698189,"United States","North America","North America",US,USA,California
+47,3670218,"San Andrés",CO,58257,12.584720,-81.700562,Colombia,"South America","South America",CO,COL,"Archipiélago de San Andrés, Providencia y Santa Catalina"
+46,6075357,Mississauga,CA,668549,43.578899,-79.658302,Canada,"North America","North America",CA,CAN,Ontario
+46,2654675,Bristol,GB,430713,51.455231,-2.596650,"United Kingdom","British Islands",Europe,GB,GBR,England
+46,2525068,Catania,IT,313110,37.502129,15.087190,Italy,"Southern Europe",Europe,IT,ITA,Sicily
+46,3463030,"Foz do Iguaçu",BR,293523,-25.547779,-54.588058,Brazil,"South America","South America",BR,BRA,Paraná
+46,4315588,"Baton Rouge",US,229493,30.450750,-91.154549,"United States","North America","North America",US,USA,Louisiana
+46,3519537,"San Cristóbal de Las Casas",MX,128996,16.737881,-92.638191,Mexico,"Central America","North America",MX,MEX,Chiapas
+46,3452640,"Porto Seguro",BR,123173,-16.449720,-39.064720,Brazil,"South America","South America",BR,BRA,"Estado de Bahía"
+46,3186952,Zadar,HR,71258,44.119720,15.242220,Croatia,"Southern Europe",Europe,HR,HRV,Zadarska
+46,2635650,Torquay,GB,65388,50.463840,-3.514340,"United Kingdom","British Islands",Europe,GB,GBR,England
+46,1273858,Calangute,IN,17446,15.543900,73.755302,India,"Southern and Central Asia",Asia,IN,IND,Goa
+45,1701668,Manila,PH,10444527,14.604200,120.982201,Philippines,"Southeast Asia",Asia,PH,PHL,"National Capital Region"
+45,1799962,Nanjing,CN,3087010,32.061668,118.777779,China,"Eastern Asia",Asia,CN,CHN,"Jiangsu Sheng"
+45,1797929,Qingdao,CN,1642245,36.098610,120.371941,China,"Eastern Asia",Asia,CN,CHN,"Shandong Sheng"
+45,4297983,Lexington,US,225366,37.988689,-84.477722,"United States","North America","North America",US,USA,Kentucky
+45,2751283,Maastricht,NL,122378,50.848331,5.688890,Netherlands,"Western Europe",Europe,NL,NLD,Limburg
+45,2549263,Essaouira,MA,70634,31.512501,-9.770000,Morocco,"Northern Africa",Africa,MA,MAR,"Marrakech-Tensift-Al Haouz"
+45,3467684,"Campos do Jordão",BR,53319,-22.739441,-45.591389,Brazil,"South America","South America",BR,BRA,"São Paulo"
+45,3183284,Alghero,IT,44000,40.558891,8.318060,Italy,"Southern Europe",Europe,IT,ITA,Sardinia
+45,4180531,Augusta,US,43459,33.470970,-81.974838,"United States","North America","North America",US,USA,Georgia
+45,18918,Protaras,CY,20230,35.012501,34.058331,Cyprus,"Middle East",Asia,CY,CYP,Ammochostos
+45,2522091,Alcúdia,ES,19071,39.853161,3.121380,Spain,"Southern Europe",Europe,ES,ESP,"Balearic Islands"
+44,1859171,Kōbe-shi,JP,1528478,34.691299,135.182999,Japan,"Eastern Asia",Asia,JP,JPN,Hyōgo
+44,3395981,Maceió,BR,954991,-9.665830,-35.735279,Brazil,"South America","South America",BR,BRA,Alagoas
+44,3104324,Zaragoza,ES,674317,41.656059,-0.877340,Spain,"Southern Europe",Europe,ES,ESP,Aragon
+44,2925533,"Frankfurt am Main",DE,650000,50.115520,8.684170,Germany,"Western Europe",Europe,DE,DEU,Hesse
+44,4347778,Baltimore,US,620961,39.290379,-76.612190,"United States","North America","North America",US,USA,Maryland
+44,5350937,Fresno,US,494665,36.747730,-119.772369,"United States","North America","North America",US,USA,California
+44,3996322,Mazatlán,MX,354717,23.232901,-106.406158,Mexico,"Central America","North America",MX,MEX,Sinaloa
+44,3621849,"San José",CR,335007,9.933330,-84.083328,"Costa Rica","Central America","North America",CR,CRI,"San José"
+44,4076784,Montgomery,US,205764,32.366810,-86.299973,"United States","North America","North America",US,USA,Alabama
+44,146384,Limassol,CY,154000,34.674999,33.033329,Cyprus,"Middle East",Asia,CY,CYP,Lemesos
+44,3179347,Cattolica,IT,15743,43.957470,12.737550,Italy,"Southern Europe",Europe,IT,ITA,Emilia-Romagna
+43,658225,Helsinki,FI,558457,60.169521,24.935450,Finland,"Nordic Countries",Europe,FI,FIN,"Southern Finland Province"
+43,5150529,Cleveland,US,396815,41.499500,-81.695412,"United States","North America","North America",US,USA,Ohio
+43,734077,Thessaloníki,GR,354290,40.640282,22.943890,Greece,"Southern Europe",Europe,GR,GRC,"Central Macedonia"
+43,4155995,"Fort Myers",US,62298,26.621679,-81.840591,"United States","North America","North America",US,USA,Florida
+43,4760059,Fredericksburg,US,24286,38.303181,-77.460541,"United States","North America","North America",US,USA,Virginia
+42,3191281,Sarajevo,BA,696731,43.848640,18.356440,"Bosnia and Herzegovina","Southern Europe",Europe,BA,BIH,"Federation of Bosnia and Herzegovina"
+42,5879400,Anchorage,US,291826,61.218060,-149.900284,"United States","North America","North America",US,USA,Alaska
+42,5525577,Lubbock,US,229573,33.577862,-101.855171,"United States","North America","North America",US,USA,Texas
+42,4781708,Richmond,US,204214,37.553761,-77.460258,"United States","North America","North America",US,USA,Virginia
+42,4174715,Tallahassee,US,181376,30.438259,-84.280731,"United States","North America","North America",US,USA,Florida
+42,3171180,Perugia,IT,149125,43.112202,12.388780,Italy,"Southern Europe",Europe,IT,ITA,Umbria
+42,4207400,Macon,US,91351,32.840691,-83.632401,"United States","North America","North America",US,USA,Georgia
+42,295277,Eilat,IL,45588,29.558050,34.948212,Israel,"Middle East",Asia,IL,ISR,"Southern District"
+42,3175458,Ischia,IT,18253,40.735229,13.948130,Italy,"Southern Europe",Europe,IT,ITA,Campania
+41,5392171,"San Jose",US,945942,37.339390,-121.894958,"United States","North America","North America",US,USA,California
+41,6183235,Winnipeg,CA,632063,49.884399,-97.147041,Canada,"North America","North America",CA,CAN,Manitoba
+41,3088171,Poznań,PL,570352,52.406921,16.929930,Poland,"Eastern Europe",Europe,PL,POL,"Greater Poland Voivodeship"
+41,2944388,Bremen,DE,546501,53.075161,8.807770,Germany,"Western Europe",Europe,DE,DEU,Bremen
+41,2192362,Christchurch,NZ,363926,-43.533329,172.633331,"New Zealand","Australia and New Zealand",Oceania,NZ,NZL,Canterbury
+41,4407066,"St. Louis",US,319294,38.627270,-90.197891,"United States","North America","North America",US,USA,Missouri
+41,2990969,Nantes,FR,277269,47.217251,-1.553360,France,"Western Europe",Europe,FR,FRA,"Pays de la Loire"
+41,2992166,Montpellier,FR,248252,43.610920,3.877230,France,"Western Europe",Europe,FR,FRA,Languedoc-Roussillon
+41,5261457,Madison,US,233209,43.073051,-89.401230,"United States","North America","North America",US,USA,Wisconsin
+41,1796556,Sanya,CN,144753,18.243059,109.504997,China,"Eastern Asia",Asia,CN,CHN,Hainan
+41,4453066,Asheville,US,83393,35.600948,-82.554024,"United States","North America","North America",US,USA,"North Carolina"
+41,3174953,Lecce,IT,83303,40.357029,18.172020,Italy,"Southern Europe",Europe,IT,ITA,Apulia
+41,3164433,Viareggio,IT,61103,43.873539,10.255800,Italy,"Southern Europe",Europe,IT,ITA,Tuscany
+40,1279233,Ahmadābād,IN,3719710,23.025789,72.587257,India,"Southern and Central Asia",Asia,IN,IND,Gujarāt
+40,1848354,Yokohama-shi,JP,3574443,35.447781,139.642502,Japan,"Eastern Asia",Asia,JP,JPN,Kanagawa
+40,5110302,Brooklyn,US,2300664,40.650101,-73.949577,"United States","North America","North America",US,USA,"New York"
+40,3186886,Zagreb,HR,698966,45.814442,15.977980,Croatia,"Southern Europe",Europe,HR,HRV,"Grad Zagreb"
+40,2711537,Göteborg,SE,504084,57.707161,11.966790,Sweden,"Nordic Countries",Europe,SE,SWE,"Västra Götaland"
+40,4508722,Cincinnati,US,296943,39.161999,-84.456886,"United States","North America","North America",US,USA,Ohio
+40,5072006,Lincoln,US,258379,40.799999,-96.666962,"United States","North America","North America",US,USA,Nebraska
+40,1282898,Pokhara,NP,200000,28.266890,83.968513,Nepal,"Southern and Central Asia",Asia,NP,NPL,"Western Region"
+40,1692685,"Puerto Princesa",PH,157144,9.739170,118.735283,Philippines,"Southeast Asia",Asia,PH,PHL,NULL
+40,4469160,Greenville,US,84554,35.612659,-77.366348,"United States","North America","North America",US,USA,"North Carolina"
+40,2964180,Gaillimh,IE,70686,53.271938,-9.048890,Ireland,"British Islands",Europe,IE,IRL,Connaught
+40,2522437,Adeje,ES,43204,28.122709,-16.726000,Spain,"Southern Europe",Europe,ES,ESP,"Canary Islands"
+39,2928810,Essen,DE,593085,51.456570,7.012280,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+39,5325738,Bakersfield,US,347483,35.373291,-119.018707,"United States","North America","North America",US,USA,California
+39,3868626,Valparaíso,CL,282448,-33.039322,-71.627251,Chile,"South America","South America",CL,CHL,Valparaíso
+39,4469146,Greensboro,US,269666,36.072639,-79.791977,"United States","North America","North America",US,USA,"North Carolina"
+39,3171728,Padova,IT,204870,45.415192,11.881810,Italy,"Southern Europe",Europe,IT,ITA,Veneto
+39,2641673,"Newcastle upon Tyne",GB,192382,54.973282,-1.613960,"United Kingdom","British Islands",Europe,GB,GBR,England
+39,2523083,Siracusa,IT,123657,37.085152,15.273000,Italy,"Southern Europe",Europe,IT,ITA,Sicily
+39,3109642,"Santiago de Compostela",ES,95092,42.880520,-8.545690,Spain,"Southern Europe",Europe,ES,ESP,Galicia
+39,3035681,Avignon,FR,89769,43.948341,4.808920,France,"Western Europe",Europe,FR,FRA,"Provence-Alpes-Côte d'Azur"
+39,3177610,"Desenzano del Garda",IT,23651,45.467979,10.533980,Italy,"Southern Europe",Europe,IT,ITA,Lombardy
+38,3995465,Monterrey,MX,1122874,25.666670,-100.316673,Mexico,"Central America","North America",MX,MEX,"Nuevo León"
+38,3617763,Managua,NI,973087,12.132820,-86.250397,Nicaragua,"Central America","North America",NI,NIC,Managua
+38,5263045,Milwaukee,US,594833,43.038898,-87.906471,"United States","North America","North America",US,USA,Wisconsin
+38,6325494,Québec,CA,528595,46.812279,-71.214539,Canada,"North America","North America",CA,CAN,Quebec
+38,2946447,Bonn,DE,313125,50.734379,7.095480,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+38,1233369,Negombo,LK,137223,7.208300,79.835800,"Sri Lanka","Southern and Central Asia",Asia,LK,LKA,Western
+38,2656173,Bath,GB,93238,51.377949,-2.359070,"United Kingdom","British Islands",Europe,GB,GBR,England
+38,5294810,Flagstaff,US,65870,35.198071,-111.651268,"United States","North America","North America",US,USA,Arizona
+38,1655559,Louangphabang,LA,47378,19.886009,102.135033,Laos,"Southeast Asia",Asia,LA,LAO,Louangphabang
+38,5223593,Newport,US,24672,41.490101,-71.312828,"United States","North America","North America",US,USA,"Rhode Island"
+38,3117636,"Malgrat de Mar",ES,18472,41.646622,2.741350,Spain,"Southern Europe",Europe,ES,ESP,Catalonia
+38,3188763,Trogir,HR,10960,43.512501,16.251671,Croatia,"Southern Europe",Europe,HR,HRV,NULL
+37,3390760,Recife,BR,1478098,-8.053890,-34.881111,Brazil,"South America","South America",BR,BRA,Pernambuco
+37,1732752,"Johor Bahru",MY,802489,1.465500,103.757797,Malaysia,"Southeast Asia",Asia,MY,MYS,Johor
+37,3838233,Salta,AR,512686,-24.785900,-65.411659,Argentina,"South America","South America",AR,ARG,Salta
+37,3658666,Cuenca,EC,276964,-2.900540,-79.004532,Ecuador,"South America","South America",EC,ECU,Azuay
+37,2998324,Lille,FR,228328,50.632969,3.058580,France,"Western Europe",Europe,FR,FRA,Nord-Pas-de-Calais
+37,5516233,Amarillo,US,190695,35.222000,-101.831299,"United States","North America","North America",US,USA,Texas
+37,4158928,Hollywood,US,140768,26.011200,-80.149490,"United States","North America","North America",US,USA,Florida
+37,4151316,Clearwater,US,107685,27.965851,-82.800102,"United States","North America","North America",US,USA,Florida
+37,5018739,Bloomington,US,82893,44.840801,-93.298279,"United States","North America","North America",US,USA,Minnesota
+37,3471039,"Balneário Camboriú",BR,49100,-26.990561,-48.634720,Brazil,"South America","South America",BR,BRA,"Santa Catarina"
+37,4062577,Florence,US,39319,34.799809,-87.677254,"United States","North America","North America",US,USA,Alabama
+37,3080866,Zakopane,PL,27580,49.298988,19.948851,Poland,"Eastern Europe",Europe,PL,POL,"Lesser Poland Voivodeship"
+37,3178956,Cesenatico,IT,21716,44.199871,12.399100,Italy,"Southern Europe",Europe,IT,ITA,Emilia-Romagna
+36,1275004,Kolkata,IN,4631392,22.562630,88.363037,India,"Southern and Central Asia",Asia,IN,IND,Bengal
+36,1790630,Xi’an,CN,3225812,34.258331,108.928612,China,"Eastern Asia",Asia,CN,CHN,Shaanxi
+36,287286,Muscat,OM,797000,23.613871,58.592201,Oman,"Middle East",Asia,OM,OMN,Masqaţ
+36,5367929,"Long Beach",US,462257,33.766960,-118.189232,"United States","North America","North America",US,USA,California
+36,4744709,Arlington,US,207627,38.881008,-77.104279,"United States","North America","North America",US,USA,Virginia
+36,6122085,Richmond,CA,182000,49.170029,-123.136833,Canada,"North America","North America",CA,CAN,"British Columbia"
+36,4172131,Sarasota,US,51917,27.336430,-82.530647,"United States","North America","North America",US,USA,Florida
+36,4692883,Galveston,US,47743,29.301350,-94.797699,"United States","North America","North America",US,USA,Texas
+36,3599699,"Antigua Guatemala",GT,39368,14.561110,-90.734444,Guatemala,"Central America","North America",GT,GTM,Sacatepéquez
+36,2264456,Portimão,PT,38487,37.138561,-8.537750,Portugal,"Southern Europe",Europe,PT,PRT,Faro
+35,2158177,Melbourne,AU,3730206,-37.813999,144.963318,Australia,"Australia and New Zealand",Oceania,AU,AUS,Victoria
+35,3663517,Manaus,BR,1598210,-3.101940,-60.025002,Brazil,"South America","South America",BR,BRA,Amazonas
+35,1862415,Hiroshima-shi,JP,1143841,34.396271,132.459366,Japan,"Eastern Asia",Asia,JP,JPN,Hiroshima
+35,4119403,"Little Rock",US,193524,34.746479,-92.289589,"United States","North America","North America",US,USA,Arkansas
+35,2657832,Aberdeen,GB,183790,57.143688,-2.098140,"United Kingdom","British Islands",Europe,GB,GBR,Scotland
+35,2525473,Cagliari,IT,164249,39.207378,9.134620,Italy,"Southern Europe",Europe,IT,ITA,Sardinia
+35,5586437,Boise,US,145987,43.613499,-116.203453,"United States","North America","North America",US,USA,Idaho
+35,5713587,Bend,US,76639,44.058170,-121.315308,"United States","North America","North America",US,USA,Oregon
+34,1735634,Kuching,MY,570407,1.550000,110.333328,Malaysia,"Southeast Asia",Asia,MY,MYS,Sarawak
+34,3514783,Veracruz,MX,568313,19.180740,-96.134048,Mexico,"Central America","North America",MX,MEX,Veracruz-Llave
+34,2644688,Leeds,GB,455123,53.796478,-1.547850,"United Kingdom","British Islands",Europe,GB,GBR,England
+34,3529947,Cuernavaca,MX,343769,18.942011,-99.226463,Mexico,"Central America","North America",MX,MEX,Morelos
+34,2692969,Malmö,SE,261548,55.605869,13.000730,Sweden,"Nordic Countries",Europe,SE,SWE,Skåne
+34,2639577,Reading,GB,244070,51.456249,-0.971130,"United Kingdom","British Islands",Europe,GB,GBR,England
+34,4076598,Mobile,US,195111,30.694361,-88.043053,"United States","North America","North America",US,USA,Alabama
+34,2775220,Innsbruck,AT,112467,47.262661,11.394540,Austria,"Western Europe",Europe,AT,AUT,Tyrol
+34,2523650,Ragusa,IT,68956,36.928242,14.717190,Italy,"Southern Europe",Europe,IT,ITA,Sicily
+34,3178998,Cervia,IT,25892,44.262039,12.348120,Italy,"Southern Europe",Europe,IT,ITA,Emilia-Romagna
+33,551487,Kazan,RU,1104738,55.788738,49.122139,"Russian Federation","Eastern Europe",Europe,RU,RUS,Tatarstan
+33,292672,Sharjah,AE,543733,25.337370,55.412060,"United Arab Emirates","Middle East",Asia,AE,ARE,"Ash Shāriqah"
+33,1821274,Macau,MO,520400,22.200560,113.546112,Macao,"Eastern Asia",Asia,MO,MAC,Macau
+33,3128026,Bilbao,ES,354860,43.262711,-2.925280,Spain,"Southern Europe",Europe,ES,ESP,"Basque Country"
+33,3114711,Oviedo,ES,224005,43.360291,-5.844760,Spain,"Southern Europe",Europe,ES,ESP,Asturias
+33,5379439,Ontario,US,163924,34.063339,-117.650887,"United States","North America","North America",US,USA,California
+33,4509884,Dayton,US,141527,39.758949,-84.191612,"United States","North America","North America",US,USA,Ohio
+33,5059163,Fargo,US,105549,46.877190,-96.789803,"United States","North America","North America",US,USA,"North Dakota"
+33,4005270,Guanajuato,MX,78364,21.018579,-101.259102,Mexico,"Central America","North America",MX,MEX,Guanajuato
+33,5989045,Kamloops,CA,68714,50.666481,-120.319199,Canada,"North America","North America",CA,CAN,"British Columbia"
+33,5192726,Harrisburg,US,49528,40.273701,-76.884422,"United States","North America","North America",US,USA,Pennsylvania
+33,3108877,Sitges,ES,27668,41.235062,1.811930,Spain,"Southern Europe",Europe,ES,ESP,Catalonia
+33,2997395,Lourdes,FR,15786,43.099998,-0.050000,France,"Western Europe",Europe,FR,FRA,Midi-Pyrénées
+33,6545006,Vilamoura,PT,1900,37.081001,-8.110830,Portugal,"Southern Europe",Europe,PT,PRT,NULL
+32,702550,L'viv,UA,717803,49.838261,24.023239,Ukraine,"Eastern Europe",Europe,UA,UKR,"L’vivs’ka Oblast’"
+32,1248991,Colombo,LK,648034,6.931940,79.847778,"Sri Lanka","Southern and Central Asia",Asia,LK,LKA,Western
+32,2193733,Auckland,NZ,417910,-36.866669,174.766663,"New Zealand","Australia and New Zealand",Oceania,NZ,NZL,Auckland
+32,1831142,"Preah Seihanouk",KH,156691,10.609320,103.529579,Cambodia,"Southeast Asia",Asia,KH,KHM,"Preah Sihanouk"
+32,2789786,Oostende,BE,69011,51.223389,2.911850,Belgium,"Western Europe",Europe,BE,BEL,Flanders
+32,4168228,Pensacola,US,51923,30.421310,-87.216911,"United States","North America","North America",US,USA,Florida
+32,3073803,"Karlovy Vary",CZ,51807,50.232712,12.871170,"Czech Republic","Eastern Europe",Europe,CZ,CZE,Karlovarský
+32,2638419,Scarborough,GB,38909,54.279659,-0.404430,"United Kingdom","British Islands",Europe,GB,GBR,England
+31,3553478,Havana,CU,2163824,23.133020,-82.383041,Cuba,Caribbean,"North America",CU,CUB,"Ciudad de La Habana"
+31,3078610,Brno,CZ,369559,49.195221,16.607960,"Czech Republic","Eastern Europe",Europe,CZ,CZE,"South Moravian Region"
+31,2745912,Utrecht,NL,290529,52.090832,5.122220,Netherlands,"Western Europe",Europe,NL,NLD,Utrecht
+31,4994358,"Grand Rapids",US,188040,42.963360,-85.668091,"United States","North America","North America",US,USA,Michigan
+31,3110044,"Donostia / San Sebastián",ES,185357,43.312832,-1.974990,Spain,"Southern Europe",Europe,ES,ESP,"Basque Country"
+31,4589387,"North Charleston",US,97471,32.888561,-80.007507,"United States","North America","North America",US,USA,"South Carolina"
+31,5393212,"Santa Monica",US,89736,34.019451,-118.491188,"United States","North America","North America",US,USA,California
+31,2510409,Toledo,ES,82291,39.858101,-4.022630,Spain,"Southern Europe",Europe,ES,ESP,"Castille-La Mancha"
+31,5768233,"Rapid City",US,67956,44.080540,-103.231010,"United States","North America","North America",US,USA,"South Dakota"
+31,3036938,Arles,FR,53431,43.676811,4.630310,France,"Western Europe",Europe,FR,FRA,"Provence-Alpes-Côte d'Azur"
+31,5104755,Somerset,US,22083,40.497601,-74.488487,"United States","North America","North America",US,USA,"New Jersey"
+31,2511448,"Sant Antoni de Portmany",ES,21852,38.980679,1.303620,Spain,"Southern Europe",Europe,ES,ESP,"Balearic Islands"
+30,1185241,Dhaka,BD,10356500,23.710400,90.407440,Bangladesh,"Southern and Central Asia",Asia,BD,BGD,Dhaka
+30,3860259,Córdoba,AR,1428214,-31.413500,-64.181053,Argentina,"South America","South America",AR,ARG,Córdoba
+30,3689147,Barranquilla,CO,1380425,10.968540,-74.781319,Colombia,"South America","South America",CO,COL,Atlántico
+30,1799397,Ningbo,CN,719867,29.878189,121.549454,China,"Eastern Asia",Asia,CN,CHN,"Zhejiang Sheng"
+30,3397277,"João Pessoa",BR,650883,-7.115000,-34.863060,Brazil,"South America","South America",BR,BRA,Paraíba
+30,1621177,Yogyakarta,ID,636660,-7.782780,110.360832,Indonesia,"Southeast Asia",Asia,ID,IDN,"Daerah Istimewa Yogyakarta"
+30,1790645,Xiamen,CN,578337,24.479790,118.081871,China,"Eastern Asia",Asia,CN,CHN,Fujian
+30,2515270,"Las Palmas de Gran Canaria",ES,381847,28.099730,-15.413430,Spain,"Southern Europe",Europe,ES,ESP,"Canary Islands"
+30,2655984,Belfast,GB,274770,54.583328,-5.933330,"United Kingdom","British Islands",Europe,GB,GBR,"N Ireland"
+30,3165185,Trieste,IT,211184,45.648609,13.780000,Italy,"Southern Europe",Europe,IT,ITA,"Friuli Venezia Giulia"
+30,5231851,"Sioux Falls",US,153888,43.549969,-96.700333,"United States","North America","North America",US,USA,"South Dakota"
+30,2907911,Heidelberg,DE,143345,49.407681,8.690790,Germany,"Western Europe",Europe,DE,DEU,"Baden-Württemberg Region"
+30,4499379,Wilmington,US,106476,34.225731,-77.944710,"United States","North America","North America",US,USA,"North Carolina"
+30,4177887,"West Palm Beach",US,99919,26.715340,-80.053368,"United States","North America","North America",US,USA,Florida
+30,5376095,Napa,US,76915,38.297138,-122.285530,"United States","North America","North America",US,USA,California
+30,146400,Larnaca,CY,72000,34.916672,33.629169,Cyprus,"Middle East",Asia,CY,CYP,Larnaka
+30,2517816,Estepona,ES,65592,36.427639,-5.145890,Spain,"Southern Europe",Europe,ES,ESP,Andalusia
+30,2978640,Saint-Malo,FR,50676,48.650002,-2.016670,France,"Western Europe",Europe,FR,FRA,Brittany
+30,4500546,"Atlantic City",US,39558,39.364281,-74.422928,"United States","North America","North America",US,USA,"New Jersey"
+30,3032797,Biarritz,FR,33188,43.480122,-1.555580,France,"Western Europe",Europe,FR,FRA,Aquitaine
+30,1263968,Manali,IN,32363,13.166670,80.266670,India,"Southern and Central Asia",Asia,IN,IND,"Tamil Nādu"
+30,3175627,Jesolo,IT,23988,45.533112,12.644750,Italy,"Southern Europe",Europe,IT,ITA,Veneto
+30,3443013,"Colonia del Sacramento",UY,21714,-34.462620,-57.839760,Uruguay,"South America","South America",UY,URY,Colonia
+30,2269946,Carvoeiro,PT,2784,37.099998,-8.466667,Portugal,"Southern Europe",Europe,PT,PRT,NULL
+29,3439389,Asunción,PY,1482200,-25.300659,-57.635910,Paraguay,"South America","South America",PY,PRY,Asunción
+29,3462377,Goiânia,BR,1171195,-16.678610,-49.253891,Brazil,"South America","South America",BR,BRA,Goiás
+29,5378538,Oakland,US,390724,37.804371,-122.270798,"United States","North America","North America",US,USA,California
+29,4276873,"Overland Park",US,173372,38.982231,-94.670792,"United States","North America","North America",US,USA,Kansas
+29,2972191,Tours,FR,141621,47.383331,0.683330,France,"Western Europe",Europe,FR,FRA,Centre
+29,2653941,Cambridge,GB,128488,52.200001,0.116670,"United Kingdom","British Islands",Europe,GB,GBR,England
+29,2650497,Eastbourne,GB,112906,50.768711,0.284530,"United Kingdom","British Islands",Europe,GB,GBR,England
+29,5570160,Redding,US,89861,40.586540,-122.391678,"United States","North America","North America",US,USA,California
+29,3178229,Como,IT,78680,45.809978,9.087440,Italy,"Southern Europe",Europe,IT,ITA,Lombardy
+29,2525764,Agrigento,IT,54619,37.311680,13.579620,Italy,"Southern Europe",Europe,IT,ITA,Sicily
+29,2511730,Ronda,ES,36827,36.742310,-5.167090,Spain,"Southern Europe",Europe,ES,ESP,Andalusia
+29,1676242,Hengchun,TW,31288,22.004169,120.743889,Taiwan,"Eastern Asia",Asia,TW,TWN,Taiwan
+28,360630,Cairo,EG,7734614,30.062630,31.249670,Egypt,"Northern Africa",Africa,EG,EGY,"Al Qāhirah"
+28,1622786,Makassar,ID,1321717,-5.140000,119.422096,Indonesia,"Southeast Asia",Asia,ID,IDN,"South Sulawesi"
+28,3911925,"La Paz",BO,812799,-16.500000,-68.150002,Bolivia,"South America","South America",BO,BOL,"La Paz"
+28,3583361,"San Salvador",SV,525990,13.689350,-89.187180,"El Salvador","Central America","North America",SV,SLV,"San Salvador"
+28,1253986,Udaipur,IN,422784,24.571171,73.691833,India,"Southern and Central Asia",Asia,IN,IND,Rajasthan
+28,3121424,Gijón,ES,277554,43.535728,-5.661520,Spain,"Southern Europe",Europe,ES,ESP,Asturias
+28,2797656,Gent,BE,231493,51.049999,3.716670,Belgium,"Western Europe",Europe,BE,BEL,Flanders
+28,4752186,Chesapeake,US,222209,36.819038,-76.274940,"United States","North America","North America",US,USA,Virginia
+28,5811696,Spokane,US,208916,47.659660,-117.429077,"United States","North America","North America",US,USA,Washington
+28,2984114,Reims,FR,196565,49.250000,4.033330,France,"Western Europe",Europe,FR,FRA,Champagne-Ardenne
+28,2464915,Sousse,TN,164123,35.825390,10.636990,Tunisia,"Northern Africa",Africa,TN,TUN,Sūsah
+28,5725846,Eugene,US,156185,44.052071,-123.086746,"United States","North America","North America",US,USA,Oregon
+28,3024635,Clermont-Ferrand,FR,138681,45.779659,3.086280,France,"Western Europe",Europe,FR,FRA,Auvergne
+28,3177090,Ferrara,IT,130992,44.826778,11.620710,Italy,"Southern Europe",Europe,IT,ITA,Emilia-Romagna
+28,5640350,Billings,US,104170,45.783291,-108.500687,"United States","North America","North America",US,USA,Montana
+28,3445847,Ubatuba,BR,79007,-23.433889,-45.071110,Brazil,"South America","South America",BR,BRA,"São Paulo"
+28,2960316,Luxembourg,LU,76684,49.611671,6.130000,Luxembourg,"Western Europe",Europe,LU,LUX,Luxembourg
+28,1262463,Munnar,IN,68000,10.088730,77.062691,India,"Southern and Central Asia",Asia,IN,IND,Kerala
+28,5128723,"Niagara Falls",US,50193,43.094501,-79.056709,"United States","North America","North America",US,USA,"New York"
+28,3172087,Olbia,IT,45366,40.921371,9.485630,Italy,"Southern Europe",Europe,IT,ITA,Sardinia
+28,3173577,Merano,IT,35505,46.668171,11.159530,Italy,"Southern Europe",Europe,IT,ITA,"Trentino-Alto Adige"
+28,3127007,Calella,ES,18627,41.618019,2.667810,Spain,"Southern Europe",Europe,ES,ESP,Catalonia
+28,2801858,Blankenberge,BE,18230,51.313061,3.132270,Belgium,"Western Europe",Europe,BE,BEL,Flanders
+28,3183587,"Abano Terme",IT,18206,45.360989,11.791410,Italy,"Southern Europe",Europe,IT,ITA,Veneto
+27,2034937,Shenyang,CN,3512192,41.792221,123.432777,China,"Eastern Asia",Asia,CN,CHN,Liaoning
+27,1843564,Incheon,KR,2628000,37.453609,126.731667,"South Korea","Eastern Asia",Asia,KR,KOR,Incheon
+27,3981609,Tijuana,MX,1376457,32.502701,-117.003708,Mexico,"Central America","North America",MX,MEX,"Baja California"
+27,3691175,Trujillo,PE,747450,-8.115990,-79.029984,Peru,"South America","South America",PE,PER,"La Libertad Region"
+27,542420,Krasnodar,RU,649851,45.044842,38.976028,"Russian Federation","Eastern Europe",Europe,RU,RUS,Krasnodarskiy
+27,5037649,Minneapolis,US,382578,44.979969,-93.263840,"United States","North America","North America",US,USA,Minnesota
+27,2641170,Nottingham,GB,246654,52.953602,-1.150470,"United Kingdom","British Islands",Europe,GB,GBR,England
+27,4499612,Winston-Salem,US,229617,36.099861,-80.244217,"United States","North America","North America",US,USA,"North Carolina"
+27,5317058,Tempe,US,161719,33.414768,-111.909309,"United States","North America","North America",US,USA,Arizona
+27,4613868,Clarksville,US,132929,36.529770,-87.359451,"United States","North America","North America",US,USA,Tennessee
+27,5254962,"Green Bay",US,104057,44.519161,-88.019829,"United States","North America","North America",US,USA,Wisconsin
+27,4853423,Davenport,US,99685,41.523640,-90.577637,"United States","North America","North America",US,USA,Iowa
+27,3175081,"La Spezia",IT,91391,44.110538,9.843390,Italy,"Southern Europe",Europe,IT,ITA,Liguria
+27,3619136,Granada,NI,89409,11.929880,-85.956017,Nicaragua,"Central America","North America",NI,NIC,Granada
+27,1151254,Phuket,TH,89072,7.890590,98.398102,Thailand,"Southeast Asia",Asia,TH,THA,"Phuket Province"
+27,2520493,Calvià,ES,51774,39.565701,2.506210,Spain,"Southern Europe",Europe,ES,ESP,"Balearic Islands"
+27,5392323,"San Luis Obispo",US,45119,35.282749,-120.659622,"United States","North America","North America",US,USA,California
+27,4562407,York,US,43718,39.962601,-76.727737,"United States","North America","North America",US,USA,Pennsylvania
+27,3461425,Ilhabela,BR,32892,-23.778061,-45.358059,Brazil,"South America","South America",BR,BRA,"São Paulo"
+27,259245,Kos,GR,19244,36.893330,27.288891,Greece,"Southern Europe",Europe,GR,GRC,"South Aegean"
+26,1625822,Surabaya,ID,2374658,-7.249170,112.750832,Indonesia,"Southeast Asia",Asia,ID,IDN,"East Java"
+26,276781,Beirut,LB,1916100,33.888939,35.494419,Lebanon,"Middle East",Asia,LB,LBN,Beyrouth
+26,1627896,Semarang,ID,1288084,-6.993200,110.420303,Indonesia,"Southeast Asia",Asia,ID,IDN,"Central Java"
+26,2935517,Dortmund,DE,588462,51.514938,7.466000,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+26,3471872,Aracaju,BR,490175,-10.911110,-37.071671,Brazil,"South America","South America",BR,BRA,Sergipe
+26,2638077,Sheffield,GB,447047,53.382969,-1.465900,"United Kingdom","British Islands",Europe,GB,GBR,England
+26,3696183,Iquitos,PE,437620,-3.749120,-73.253830,Peru,"South America","South America",PE,PER,Loreto
+26,1730737,"Angeles City",PH,299391,15.150000,120.583328,Philippines,"Southeast Asia",Asia,PH,PHL,"Central Luzon"
+26,3196359,Ljubljana,SI,255115,46.051079,14.505130,Slovenia,"Southern Europe",Europe,SI,SVN,Ljubljana
+26,5511077,Reno,US,225221,39.529629,-119.813797,"United States","North America","North America",US,USA,Nevada
+26,2756253,Eindhoven,NL,209620,51.440830,5.477780,Netherlands,"Western Europe",Europe,NL,NLD,"North Brabant"
+26,6141256,Saskatoon,CA,198958,52.116791,-106.634521,Canada,"North America","North America",CA,CAN,Saskatchewan
+26,5393287,"Santa Rosa",US,167815,38.440472,-122.714432,"United States","North America","North America",US,USA,California
+26,3111108,Salamanca,ES,155619,40.968819,-5.663880,Spain,"Southern Europe",Europe,ES,ESP,"Castille and León"
+26,2640729,Oxford,GB,154566,51.752220,-1.255960,"United Kingdom","British Islands",Europe,GB,GBR,England
+26,4931972,Cambridge,US,105162,42.375099,-71.105614,"United States","North America","North America",US,USA,Massachusetts
+26,5322053,Yuma,US,93064,32.725319,-114.624397,"United States","North America","North America",US,USA,Arizona
+26,4255466,Carmel,US,79191,39.978371,-86.118042,"United States","North America","North America",US,USA,Indiana
+26,4351977,"College Park",US,30413,38.980671,-76.936920,"United States","North America","North America",US,USA,Maryland
+26,3170335,Pompei,IT,25751,40.746109,14.497340,Italy,"Southern Europe",Europe,IT,ITA,Campania
+26,2641589,Newquay,GB,19998,50.413170,-5.081860,"United Kingdom","British Islands",Europe,GB,GBR,England
+25,1814906,Chongqing,CN,3967028,29.562780,106.552780,China,"Eastern Asia",Asia,CN,CHN,"Chongqing Shi"
+25,1278710,Amritsar,IN,1092450,31.636610,74.874763,India,"Southern and Central Asia",Asia,IN,IND,Punjab
+25,1268865,Jodhpur,IN,921476,26.268410,73.005943,India,"Southern and Central Asia",Asia,IN,IND,Rajasthan
+25,1262321,Mysore,IN,868313,12.297910,76.639252,India,"Southern and Central Asia",Asia,IN,IND,Karnātaka
+25,726050,Varna,BG,312770,43.216671,27.916670,Bulgaria,"Eastern Europe",Europe,BG,BGR,Varna
+25,2653822,Cardiff,GB,302139,51.480000,-3.180000,"United Kingdom","British Islands",Europe,GB,GBR,Wales
+25,5110629,Buffalo,US,261310,42.886452,-78.878372,"United States","North America","North America",US,USA,"New York"
+25,4719457,Plano,US,259841,33.019840,-96.698891,"United States","North America","North America",US,USA,Texas
+25,2983990,Rennes,FR,209375,48.111980,-1.674290,France,"Western Europe",Europe,FR,FRA,Brittany
+25,1651944,Vientiane,LA,196731,17.966669,102.599998,Laos,"Southeast Asia",Asia,LA,LAO,"Vientiane Prefecture"
+25,4068590,Huntsville,US,180105,34.730370,-86.586098,"United States","North America","North America",US,USA,Alabama
+25,2641181,Norwich,GB,177636,52.627831,1.298340,"United Kingdom","British Islands",Europe,GB,GBR,England
+25,2661604,Basel,CH,164488,47.558399,7.573270,Switzerland,"Western Europe",Europe,CH,CHE,Basel-City
+25,2990363,Nîmes,FR,148236,43.833328,4.350000,France,"Western Europe",Europe,FR,FRA,Languedoc-Roussillon
+25,3038354,Aix-en-Provence,FR,146821,43.528301,5.449730,France,"Western Europe",Europe,FR,FRA,"Provence-Alpes-Côte d'Azur"
+25,3169561,Ravenna,IT,134631,44.417500,12.201110,Italy,"Southern Europe",Europe,IT,ITA,Emilia-Romagna
+25,5990579,Kelowna,CA,125109,49.883072,-119.485680,Canada,"North America","North America",CA,CAN,"British Columbia"
+25,4257227,Evansville,US,117429,37.974758,-87.555847,"United States","North America","North America",US,USA,Indiana
+25,5043473,Rochester,US,106769,44.021629,-92.469902,"United States","North America","North America",US,USA,Minnesota
+25,4910713,Schaumburg,US,74227,42.033360,-88.083412,"United States","North America","North America",US,USA,Illinois
+25,5041926,Plymouth,US,70576,45.010521,-93.455513,"United States","North America","North America",US,USA,Minnesota
+25,1850892,Takayama,JP,66636,36.133331,137.250000,Japan,"Eastern Asia",Asia,JP,JPN,Gifu
+25,5393052,"Santa Cruz",US,59946,36.974121,-122.030800,"United States","North America","North America",US,USA,California
+25,3833367,Ushuaia,AR,58028,-54.799999,-68.300003,Argentina,"South America","South America",AR,ARG,"Tierra del Fuego"
+25,3028641,Carcassonne,FR,49600,43.216671,2.350000,France,"Western Europe",Europe,FR,FRA,Languedoc-Roussillon
+25,2516479,Ibiza,ES,48684,38.908829,1.432960,Spain,"Southern Europe",Europe,ES,ESP,"Balearic Islands"
+25,4418478,Biloxi,US,44054,30.396030,-88.885307,"United States","North America","North America",US,USA,Mississippi
+25,2646088,Inverness,GB,40755,57.479080,-4.223980,"United Kingdom","British Islands",Europe,GB,GBR,Scotland
+25,3085151,Sopot,PL,40142,54.441799,18.560030,Poland,"Eastern Europe",Europe,PL,POL,"Pomeranian Voivodeship"
+25,5394136,Seaside,US,33025,36.611069,-121.851624,"United States","North America","North America",US,USA,California
+25,3171786,Ostuni,IT,32901,40.727631,17.576410,Italy,"Southern Europe",Europe,IT,ITA,Apulia
+25,3171874,Orvieto,IT,20705,42.719528,12.111560,Italy,"Southern Europe",Europe,IT,ITA,Umbria
+24,1791247,Wuhan,CN,4184206,30.583330,114.266670,China,"Eastern Asia",Asia,CN,CHN,Hubei
+24,1814087,Dalian,CN,2035307,38.912220,121.602219,China,"Eastern Asia",Asia,CN,CHN,Liaoning
+24,3838583,Rosario,AR,1173533,-32.946819,-60.639320,Argentina,"South America","South America",AR,ARG,"Santa Fe"
+24,1734634,Ipoh,MY,673318,4.584100,101.082901,Malaysia,"Southeast Asia",Asia,MY,MYS,Perak
+24,1855612,Nara-shi,JP,367353,34.685051,135.804855,Japan,"Eastern Asia",Asia,JP,JPN,Nara
+24,4920423,"Fort Wayne",US,253691,41.130600,-85.128860,"United States","North America","North America",US,USA,Indiana
+24,2778067,Graz,AT,222326,47.066669,15.450000,Austria,"Western Europe",Europe,AT,AUT,Styria
+24,2516326,"Jerez de la Frontera",ES,207532,36.686451,-6.136060,Spain,"Southern Europe",Europe,ES,ESP,Andalusia
+24,4466033,Fayetteville,US,200564,35.052662,-78.878357,"United States","North America","North America",US,USA,"North Carolina"
+24,3114472,Pamplona,ES,198491,42.816872,-1.643230,Spain,"Southern Europe",Europe,ES,ESP,Navarre
+24,3171457,Parma,IT,163457,44.802662,10.328980,Italy,"Southern Europe",Europe,IT,ITA,Emilia-Romagna
+24,4744091,Alexandria,US,139966,38.804840,-77.046921,"United States","North America","North America",US,USA,Virginia
+24,4709796,McAllen,US,129877,26.203409,-98.230011,"United States","North America","North America",US,USA,Texas
+24,4850751,"Cedar Rapids",US,126326,42.008331,-91.644073,"United States","North America","North America",US,USA,Iowa
+24,4669635,Abilene,US,117063,32.448738,-99.733139,"United States","North America","North America",US,USA,Texas
+24,2821164,Trier,DE,100129,49.755650,6.639350,Germany,"Western Europe",Europe,DE,DEU,Rheinland-Pfalz
+24,5475352,"Las Cruces",US,97618,32.312321,-106.778343,"United States","North America","North America",US,USA,"New Mexico"
+24,4782167,Roanoke,US,97032,37.270969,-79.941429,"United States","North America","North America",US,USA,Virginia
+24,3037456,Antibes,FR,76393,43.562408,7.127770,France,"Western Europe",Europe,FR,FRA,"Provence-Alpes-Côte d'Azur"
+24,4236895,Decatur,US,76122,39.840309,-88.954803,"United States","North America","North America",US,USA,Illinois
+24,5688025,Bismarck,US,61272,46.808331,-100.783737,"United States","North America","North America",US,USA,"North Dakota"
+24,5423573,"Grand Junction",US,58566,39.063869,-108.550652,"United States","North America","North America",US,USA,Colorado
+24,2511440,"San Bartolomé",ES,52161,27.924810,-15.573290,Spain,"Southern Europe",Europe,ES,ESP,"Canary Islands"
+24,4288809,Covington,US,40640,39.083672,-84.508553,"United States","North America","North America",US,USA,Kentucky
+24,4115412,"Hot Springs",US,35193,34.503700,-93.055183,"United States","North America","North America",US,USA,Arkansas
+23,1214520,Medan,ID,1750971,3.583330,98.666672,Indonesia,"Southeast Asia",Asia,ID,IDN,"North Sumatra"
+23,4990729,Detroit,US,713777,42.331429,-83.045753,"United States","North America","North America",US,USA,Michigan
+23,4019233,Aguascalientes,MX,658179,21.883329,-102.300003,Mexico,"Central America","North America",MX,MEX,Aguascalientes
+23,3081368,Wrocław,PL,634893,51.099998,17.033331,Poland,"Eastern Europe",Europe,PL,POL,"Lower Silesian Voivodeship"
+23,1735158,"Petaling Jaya",MY,520698,3.107260,101.606712,Malaysia,"Southeast Asia",Asia,MY,MYS,Selangor
+23,5304391,Mesa,US,439041,33.422272,-111.822639,"United States","North America","North America",US,USA,Arizona
+23,3105976,Vigo,ES,297332,42.232819,-8.722640,Spain,"Southern Europe",Europe,ES,ESP,Galicia
+23,2892794,Karlsruhe,DE,283799,49.004719,8.385830,Germany,"Western Europe",Europe,DE,DEU,"Baden-Württemberg Region"
+23,5101798,Newark,US,277140,40.735661,-74.172371,"United States","North America","North America",US,USA,"New Jersey"
+23,2809346,Wiesbaden,DE,272432,50.082581,8.249320,Germany,"Western Europe",Europe,DE,DEU,Hesse
+23,4341513,Shreveport,US,199311,32.525150,-93.750183,"United States","North America","North America",US,USA,Louisiana
+23,2844588,Rostock,DE,198293,54.088699,12.140490,Germany,"Western Europe",Europe,DE,DEU,Mecklenburg-Vorpommern
+23,2755251,Groningen,NL,181194,53.219170,6.566670,Netherlands,"Western Europe",Europe,NL,NLD,Groningen
+23,4676740,Brownsville,US,175023,25.901751,-97.497482,"United States","North America","North America",US,USA,Texas
+23,1571058,"Phan Thiết",VN,160652,10.933330,108.099998,Vietnam,"Southeast Asia",Asia,VN,VNM,"Bình Thuận"
+23,3021372,Dijon,FR,149782,47.316669,5.016670,France,"Western Europe",Europe,FR,FRA,Bourgogne
+23,2852458,Potsdam,DE,145292,52.398861,13.065660,Germany,"Western Europe",Europe,DE,DEU,Brandenburg
+23,2998286,Limoges,FR,141176,45.831532,1.257800,France,"Western Europe",Europe,FR,FRA,Limousin
+23,4926563,"South Bend",US,101168,41.683380,-86.250008,"United States","North America","North America",US,USA,Indiana
+23,4161438,Lakeland,US,97422,28.039471,-81.949799,"United States","North America","North America",US,USA,Florida
+23,361291,"Al Ghardaqah",EG,95622,27.257380,33.812908,Egypt,"Northern Africa",Africa,EG,EGY,"Al Baḩr al Aḩmar"
+23,4682464,"College Station",US,93857,30.627979,-96.334412,"United States","North America","North America",US,USA,Texas
+23,2792482,Leuven,BE,92892,50.879589,4.700930,Belgium,"Western Europe",Europe,BE,BEL,Flanders
+23,5666639,Missoula,US,66788,46.872150,-113.994003,"United States","North America","North America",US,USA,Montana
+23,6241325,Rotorua,NZ,65901,-38.138741,176.245163,"New Zealand","Australia and New Zealand",Oceania,NZ,NZL,"Bay of Plenty"
+23,4317639,"Bossier City",US,61315,32.515991,-93.732117,"United States","North America","North America",US,USA,Louisiana
+23,3986172,"San José del Cabo",MX,48518,23.058880,-109.697708,Mexico,"Central America","North America",MX,MEX,"Baja California Sur"
+23,3174051,Mantova,IT,47790,45.160309,10.797840,Italy,"Southern Europe",Europe,IT,ITA,Lombardy
+23,5213681,"State College",US,42034,40.793400,-77.860001,"United States","North America","North America",US,USA,Pennsylvania
+23,4203696,Kennesaw,US,29783,34.023430,-84.615494,"United States","North America","North America",US,USA,Georgia
+23,4169345,Princeton,US,22038,25.538441,-80.408943,"United States","North America","North America",US,USA,Florida
+22,611717,Tbilisi,GE,1049498,41.694111,44.833679,Georgia,"Middle East",Asia,GE,GEO,T'bilisi
+22,3985606,"San Luis Potosí",MX,677704,22.150000,-100.983330,Mexico,"Central America","North America",MX,MEX,"San Luis Potosí"
+22,3601782,"San Pedro Sula",HN,489466,15.504170,-88.025002,Honduras,"Central America","North America",HN,HND,Cortés
+22,1812545,Dongguan,CN,390219,23.048889,113.744720,China,"Eastern Asia",Asia,CN,CHN,"Guangdong Province"
+22,3514670,Villahermosa,MX,362401,17.983330,-92.916672,Mexico,"Central America","North America",MX,MEX,Tabasco
+22,3106672,Valladolid,ES,317864,41.655182,-4.723720,Spain,"Southern Europe",Europe,ES,ESP,"Castille and León"
+22,665087,Timişoara,RO,315053,45.753719,21.225710,Romania,"Eastern Europe",Europe,RO,ROM,Timiş
+22,294801,Haifa,IL,267300,32.818409,34.988499,Israel,"Middle East",Asia,IL,ISR,"Haifa District"
+22,3161732,Bergen,NO,213585,60.392990,5.324150,Norway,"Nordic Countries",Europe,NO,NOR,Hordaland
+22,3531732,Campeche,MX,205212,19.850000,-90.533333,Mexico,"Central America","North America",MX,MEX,Campeche
+22,3127461,Burgos,ES,178966,42.349998,-3.700000,Spain,"Southern Europe",Europe,ES,ESP,"Castille and León"
+22,3014728,Grenoble,FR,158552,45.166672,5.716670,France,"Western Europe",Europe,FR,FRA,Rhône-Alpes
+22,5400075,Sunnyvale,US,140081,37.368832,-122.036346,"United States","North America","North America",US,USA,California
+22,1241622,Kandy,LK,111701,7.295500,80.635597,"Sri Lanka","Southern and Central Asia",Asia,LK,LKA,Central
+22,2987914,Perpignan,FR,110706,42.697639,2.895410,France,"Western Europe",Europe,FR,FRA,Languedoc-Roussillon
+22,3468615,"Cabo Frio",BR,108239,-22.879440,-42.018608,Brazil,"South America","South America",BR,BRA,"Rio de Janeiro"
+22,4741752,"Wichita Falls",US,104553,33.913712,-98.493393,"United States","North America","North America",US,USA,Texas
+22,1253993,Ooty,IN,98238,11.413400,76.695213,India,"Southern and Central Asia",Asia,IN,IND,"Tamil Nādu"
+22,5106834,Albany,US,97856,42.652580,-73.756233,"United States","North America","North America",US,USA,"New York"
+22,3182884,Arezzo,IT,91589,43.461391,11.876910,Italy,"Southern Europe",Europe,IT,ITA,Tuscany
+22,2962943,Luimneach,IE,90054,52.664719,-8.623060,Ireland,"British Islands",Europe,IE,IRL,Munster
+22,1153669,"Chiang Rai",TH,78756,19.908581,99.832497,Thailand,"Southeast Asia",Asia,TH,THA,"Chiang Rai"
+22,2524245,Marsala,IT,77784,37.796638,12.435180,Italy,"Southern Europe",Europe,IT,ITA,Sicily
+22,2653228,Chester,GB,77040,53.190498,-2.891890,"United Kingdom","British Islands",Europe,GB,GBR,England
+22,4997787,Kalamazoo,US,74262,42.291710,-85.587227,"United States","North America","North America",US,USA,Michigan
+22,1269507,Jaisalmer,IN,67604,26.917629,70.903870,India,"Southern and Central Asia",Asia,IN,IND,Rajasthan
+22,5397765,"South San Francisco",US,63632,37.654659,-122.407753,"United States","North America","North America",US,USA,California
+22,2647984,"Great Yarmouth",GB,59601,52.608311,1.730520,"United Kingdom","British Islands",Europe,GB,GBR,England
+22,3173721,Matera,IT,57785,40.668522,16.601580,Italy,"Southern Europe",Europe,IT,ITA,Basilicate
+22,4207783,Marietta,US,56579,33.952599,-84.549927,"United States","North America","North America",US,USA,Georgia
+22,4917592,Anderson,US,56129,40.105320,-85.680252,"United States","North America","North America",US,USA,Indiana
+22,2953504,Baden-Baden,DE,54239,48.760601,8.239750,Germany,"Western Europe",Europe,DE,DEU,"Baden-Württemberg Region"
+22,5059429,"Grand Forks",US,52838,47.925259,-97.032852,"United States","North America","North America",US,USA,"North Dakota"
+22,4787534,Sterling,US,27822,39.006222,-77.428596,"United States","North America","North America",US,USA,Virginia
+22,3034126,Beaune,FR,24162,47.033329,4.833330,France,"Western Europe",Europe,FR,FRA,Bourgogne
+22,3176366,Gallipoli,IT,20266,40.055561,17.976391,Italy,"Southern Europe",Europe,IT,ITA,Apulia
+22,4004293,Ixtapa,MX,18717,20.716230,-105.204079,Mexico,"Central America","North America",MX,MEX,Jalisco
+21,1692192,"Quezon City",PH,2761720,14.648800,121.050903,Philippines,"Southeast Asia",Asia,PH,PHL,"National Capital Region"
+21,184745,Nairobi,KE,2750547,-1.283330,36.816669,Kenya,"Eastern Africa",Africa,KE,KEN,"Nairobi Area"
+21,3492908,"Santo Domingo",DO,2201941,18.500120,-69.988571,"Dominican Republic",Caribbean,"North America",DO,DOM,"Distrito Nacional"
+21,3467865,Campinas,BR,1031554,-22.905560,-47.060829,Brazil,"South America","South America",BR,BRA,"São Paulo"
+21,785842,Skopje,MK,474889,42.001221,21.428780,Macedonia,"Southern Europe",Europe,MK,MKD,Karpoš
+21,3672486,Pereira,CO,440118,4.813330,-75.696114,Colombia,"South America","South America",CO,COL,Risaralda
+21,598316,Kaunas,LT,374643,54.900002,23.900000,Lithuania,"Baltic Countries",Europe,LT,LTU,"Kauno Apskritis"
+21,6324729,Halifax,CA,359111,44.645329,-63.572392,Canada,"North America","North America",CA,CAN,"Nova Scotia"
+21,3868121,"Viña del Mar",CL,294551,-33.024570,-71.551826,Chile,"South America","South America",CL,CHL,Valparaíso
+21,5505411,Henderson,US,257729,36.039700,-114.981941,"United States","North America","North America",US,USA,Nevada
+21,4705349,Laredo,US,236091,27.506411,-99.507538,"United States","North America","North America",US,USA,Texas
+21,2651347,Derby,GB,235029,52.922771,-1.476630,"United Kingdom","British Islands",Europe,GB,GBR,England
+21,4776024,"Newport News",US,180719,36.978760,-76.428001,"United States","North America","North America",US,USA,Virginia
+21,5814616,Vancouver,US,161791,45.638729,-122.661491,"United States","North America","North America",US,USA,Washington
+21,2849483,Regensburg,DE,129151,49.014999,12.095560,Germany,"Western Europe",Europe,DE,DEU,Bavaria
+21,4739526,Waco,US,124805,31.549330,-97.146667,"United States","North America","North America",US,USA,Texas
+21,4391812,Independence,US,116830,39.091122,-94.415512,"United States","North America","North America",US,USA,Missouri
+21,4998830,Lansing,US,114297,42.732540,-84.555527,"United States","North America","North America",US,USA,Michigan
+21,5089178,Manchester,US,109565,42.995640,-71.454788,"United States","North America","North America",US,USA,"New Hampshire"
+21,4989133,Clinton,US,99753,42.586979,-82.919922,"United States","North America","North America",US,USA,Michigan
+21,4738214,Tyler,US,96900,32.351261,-95.301064,"United States","North America","North America",US,USA,Texas
+21,4094455,Tuscaloosa,US,90468,33.209839,-87.569168,"United States","North America","North America",US,USA,Alabama
+21,2647428,Harrogate,GB,87024,53.990780,-1.537300,"United Kingdom","British Islands",Europe,GB,GBR,England
+21,4987990,Canton,US,86825,42.308651,-83.482162,"United States","North America","North America",US,USA,Michigan
+21,4330236,"Lake Charles",US,71993,30.213091,-93.204399,"United States","North America","North America",US,USA,Louisiana
+21,4406831,"Saint Charles",US,65794,38.783939,-90.481232,"United States","North America","North America",US,USA,Missouri
+21,4623560,Franklin,US,62487,35.925060,-86.868889,"United States","North America","North America",US,USA,Tennessee
+21,5197079,Lancaster,US,59322,40.037880,-76.305511,"United States","North America","North America",US,USA,Pennsylvania
+21,4714131,"New Braunfels",US,57740,29.702999,-98.124451,"United States","North America","North America",US,USA,Texas
+21,5380626,"Palm Desert",US,48445,33.722240,-116.374458,"United States","North America","North America",US,USA,California
+21,2523194,Sciacca,IT,40240,37.506931,13.083990,Italy,"Southern Europe",Europe,IT,ITA,Sicily
+21,4357340,Hanover,US,38088,39.192890,-76.724136,"United States","North America","North America",US,USA,Maryland
+21,5641727,Bozeman,US,37280,45.679649,-111.038559,"United States","North America","North America",US,USA,Montana
+21,2659836,Lugano,CH,26365,46.010078,8.960040,Switzerland,"Western Europe",Europe,CH,CHE,Ticino
+21,2922530,Garmisch-Partenkirchen,DE,26022,47.492088,11.095760,Germany,"Western Europe",Europe,DE,DEU,Bavaria
+21,3177948,Cortona,IT,22707,43.274670,11.985330,Italy,"Southern Europe",Europe,IT,ITA,Tuscany
+20,1274746,Chandīgarh,IN,914371,30.736290,76.788399,India,"Southern and Central Asia",Asia,IN,IND,Chandīgarh
+20,4014338,Chihuahua,MX,708267,28.633329,-106.083328,Mexico,"Central America","North America",MX,MEX,Chihuahua
+20,3465038,Cuiabá,BR,521934,-15.596110,-56.096668,Brazil,"South America","South America",BR,BRA,"Mato Grosso"
+20,3515001,"Tuxtla Gutiérrez",MX,481128,16.750000,-93.116669,Mexico,"Central America","North America",MX,MEX,Chiapas
+20,681290,Cluj-Napoca,RO,316748,46.766670,23.600000,Romania,"Eastern Europe",Europe,RO,ROM,Cluj
+20,3461789,Guarujá,BR,310424,-23.993059,-46.256390,Brazil,"South America","South America",BR,BRA,"São Paulo"
+20,2637487,Southampton,GB,246201,50.903950,-1.404280,"United Kingdom","British Islands",Europe,GB,GBR,England
+20,4776222,Norfolk,US,242803,36.846809,-76.285217,"United States","North America","North America",US,USA,Virginia
+20,5289282,Chandler,US,236123,33.306160,-111.841248,"United States","North America","North America",US,USA,Arizona
+20,2891122,Kiel,DE,232758,54.321331,10.134890,Germany,"Western Europe",Europe,DE,DEU,Schleswig-Holstein
+20,2892518,Kassel,DE,194501,51.316669,9.500000,Germany,"Western Europe",Europe,DE,DEU,Hesse
+20,3181554,Brescia,IT,187567,45.524780,10.227270,Italy,"Southern Europe",Europe,IT,ITA,Lombardy
+20,3109718,Santander,ES,182700,43.464722,-3.804440,Spain,"Southern Europe",Europe,ES,ESP,Cantabria
+20,3037656,Angers,FR,168279,47.466671,-0.550000,France,"Western Europe",Europe,FR,FRA,"Pays de la Loire"
+19,2553604,Casablanca,MA,3144909,33.588310,-7.611380,Morocco,"Northern Africa",Africa,MA,MAR,"Grand Casablanca"
+19,3430863,"Mar del Plata",AR,553935,-38.002281,-57.557541,Argentina,"South America","South America",AR,ARG,"Buenos Aires"
+19,2179537,Wellington,NZ,381900,-41.286640,174.775574,"New Zealand","Australia and New Zealand",Oceania,NZ,NZL,Wellington
+19,4853828,"Des Moines",US,203433,41.600540,-93.609108,"United States","North America","North America",US,USA,Iowa
+19,2965140,Cork,IE,190384,51.897968,-8.470610,Ireland,"British Islands",Europe,IE,IRL,Munster
+19,2661552,Bern,CH,121631,46.948090,7.447440,Switzerland,"Western Europe",Europe,CH,CHE,Bern
+19,2742032,Braga,PT,121394,41.550320,-8.420050,Portugal,"Southern Europe",Europe,PT,PRT,Braga
+18,105343,Jeddah,SA,2867446,21.516939,39.219170,"Saudi Arabia","Middle East",Asia,SA,SAU,Makkah
+18,2306104,Accra,GH,1963264,5.556020,-0.196900,Ghana,"Western Africa",Africa,GH,GHA,"Greater Accra"
+18,4013708,"Ciudad Juárez",MX,1512354,31.733330,-106.483330,Mexico,"Central America","North America",MX,MEX,Chihuahua
+18,750269,Bursa,TR,1412701,40.192661,29.084030,Turkey,"Middle East",Asia,TR,TUR,Bursa
+18,3405870,Belém,BR,1407737,-1.455830,-48.504440,Brazil,"South America","South America",BR,BRA,Pará
+18,1253405,Vārānasi,IN,1164404,25.316681,83.010422,India,"Southern and Central Asia",Asia,IN,IND,"Uttar Pradesh"
+18,2513416,Murcia,ES,436870,37.987041,-1.130040,Spain,"Southern Europe",Europe,ES,ESP,Murcia
+18,3183875,Tirana,AL,374801,41.327499,19.818890,Albania,"Southern Europe",Europe,AL,ALB,Tiranë
+18,3182351,Bari,IT,316532,41.117729,16.851179,Italy,"Southern Europe",Europe,IT,ITA,Apulia
+18,3444924,Vitória,BR,312656,-20.319441,-40.337780,Brazil,"South America","South America",BR,BRA,"Espírito Santo"
+18,2652221,Coventry,GB,308313,52.406559,-1.512170,"United Kingdom","British Islands",Europe,GB,GBR,England
+18,3247449,Aachen,DE,265208,50.776642,6.083420,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+18,2925177,Freiburg,DE,215966,47.995899,7.852220,Germany,"Western Europe",Europe,DE,DEU,"Baden-Württemberg Region"
+18,2875601,Lübeck,DE,212207,53.868931,10.687290,Germany,"Western Europe",Europe,DE,DEU,Schleswig-Holstein
+18,5145476,Akron,US,199110,41.081440,-81.519012,"United States","North America","North America",US,USA,Ohio
+18,3030300,Brest,FR,144899,48.400002,-4.483330,France,"Western Europe",Europe,FR,FRA,Brittany
+18,2989317,Orléans,FR,124149,47.902889,1.903890,France,"Western Europe",Europe,FR,FRA,Centre
+18,2659994,Lausanne,CH,116751,46.515999,6.632820,Switzerland,"Western Europe",Europe,CH,CHE,Vaud
+17,993800,Johannesburg,ZA,2026469,-26.202271,28.043631,"South Africa","Southern Africa",Africa,ZA,ZAF,Gauteng
+17,1496747,Novosibirsk,RU,1419007,55.041500,82.934601,"Russian Federation","Eastern Europe",Europe,RU,RUS,Novosibirsk
+17,1835553,Suigen,KR,1242724,37.291111,127.008888,"South Korea","Eastern Asia",Asia,KR,KOR,"Gyeonggi Province"
+17,499099,Samara,RU,1134730,53.200062,50.150002,"Russian Federation","Eastern Europe",Europe,RU,RUS,Samara
+17,1255634,Srīnagar,IN,975857,34.088421,74.802979,India,"Southern and Central Asia",Asia,IN,IND,Kashmir
+17,3489854,Kingston,JM,937700,17.997021,-76.793579,Jamaica,Caribbean,"North America",JM,JAM,Kingston
+17,1631761,Pekanbaru,ID,703956,0.533330,101.449997,Indonesia,"Southeast Asia",Asia,ID,IDN,Riau
+17,4004898,Hermosillo,MX,595811,29.066669,-110.966667,Mexico,"Central America","North America",MX,MEX,Sonora
+17,1734052,Sandakan,MY,392288,5.840200,118.117897,Malaysia,"Southeast Asia",Asia,MY,MYS,Sabah
+17,5399020,Stockton,US,291707,37.957699,-121.290779,"United States","North America","North America",US,USA,California
+17,683844,Braşov,RO,276088,45.648609,25.606131,Romania,"Eastern Europe",Europe,RO,ROM,Braşov
+17,5336899,"Chula Vista",US,243916,32.640049,-117.084198,"United States","North America","North America",US,USA,California
+17,634963,Tampere,FI,202687,61.499111,23.787121,Finland,"Nordic Countries",Europe,FI,FIN,"Province of Western Finland"
+17,2874225,Mainz,DE,184997,49.984192,8.279100,Germany,"Western Europe",Europe,DE,DEU,Rheinland-Pfalz
+17,255274,Piraeus,GR,172429,37.947449,23.637079,Greece,"Southern Europe",Europe,GR,GRC,Attica
+17,3003603,"Le Mans",FR,144515,48.000000,0.200000,France,"Western Europe",Europe,FR,FRA,"Pays de la Loire"
+17,2994160,Metz,FR,123914,49.119110,6.172690,France,"Western Europe",Europe,FR,FRA,Lorraine
+16,2332459,Lagos,NG,9000000,6.453060,3.395830,Nigeria,"Western Africa",Africa,NG,NGA,Lagos
+16,6619347,"Navi Mumbai",IN,2600000,19.036810,73.015823,India,"Southern and Central Asia",Asia,IN,IND,Mahārāshtra
+16,1859307,Kitakyūshū,JP,997536,33.833328,130.833328,Japan,"Eastern Asia",Asia,JP,JPN,Fukuoka
+16,618426,Chişinău,MD,635994,47.005562,28.857500,Moldova,"Eastern Europe",Europe,MD,MDA,Chişinău
+16,3988086,Saltillo,MX,621250,25.416670,-101.000000,Mexico,"Central America","North America",MX,MEX,Coahuila
+16,3688465,Bucaramanga,CO,571820,7.125390,-73.119797,Colombia,"South America","South America",CO,COL,Santander
+16,1526273,Astana,KZ,345604,51.180099,71.445976,Kazakhstan,"Southern and Central Asia",Asia,KZ,KAZ,"Astana Qalasy"
+16,728193,Plovdiv,BG,340494,42.150002,24.750000,Bulgaria,"Eastern Europe",Europe,BG,BGR,Plovdiv
+16,5412347,Aurora,US,325078,39.729431,-104.831917,"United States","North America","North America",US,USA,Colorado
+16,2954172,Augsburg,DE,259196,48.366669,10.883330,Germany,"Western Europe",Europe,DE,DEU,Bavaria
+16,2640194,Plymouth,GB,247297,50.371529,-4.143050,"United Kingdom","British Islands",Europe,GB,GBR,England
+16,3194360,"Novi Sad",RS,215400,45.251671,19.836941,"Republic of Serbia",,Europe,RS,SRB,"Autonomna Pokrajina Vojvodina"
+16,5359777,Irvine,US,212375,33.669460,-117.823112,"United States","North America","North America",US,USA,California
+16,2929670,Erfurt,DE,203254,50.978699,11.032830,Germany,"Western Europe",Europe,DE,DEU,Thuringia
+16,5812944,Tacoma,US,198397,47.252880,-122.444290,"United States","North America","North America",US,USA,Washington
+16,2982652,Rouen,FR,112787,49.443130,1.099320,France,"Western Europe",Europe,FR,FRA,Haute-Normandie
+16,2991214,Mulhouse,FR,111430,47.750000,7.333330,France,"Western Europe",Europe,FR,FRA,Alsace
+15,2078025,Adelaide,AU,1074159,-34.928661,138.598633,Australia,"Australia and New Zealand",Oceania,AU,AUS,"South Australia"
+15,964420,"Port Elizabeth",ZA,967677,-33.917992,25.570070,"South Africa","Southern Africa",Africa,ZA,ZAF,"Eastern Cape"
+15,2174003,Brisbane,AU,958504,-27.467939,153.028091,Australia,"Australia and New Zealand",Oceania,AU,AUS,Queensland
+15,3451328,"Ribeirão Preto",BR,619746,-21.177500,-47.810280,Brazil,"South America","South America",BR,BRA,"São Paulo"
+15,4012176,Culiacán,MX,582469,24.799440,-107.389717,Mexico,"Central America","North America",MX,MEX,Sinaloa
+15,3515302,Toluca,MX,505881,19.288330,-99.667221,Mexico,"Central America","North America",MX,MEX,México
+15,2873891,Mannheim,DE,307960,49.496712,8.479550,Germany,"Western Europe",Europe,DE,DEU,"Baden-Württemberg Region"
+15,2511174,"Santa Cruz de Tenerife",ES,222417,28.468241,-16.254620,Spain,"Southern Europe",Europe,ES,ESP,"Canary Islands"
+15,2521886,Almería,ES,188810,36.838139,-2.459740,Spain,"Southern Europe",Europe,ES,ESP,Andalusia
+15,3003796,"Le Havre",FR,185972,49.493801,0.107670,France,"Western Europe",Europe,FR,FRA,Haute-Normandie
+15,3173331,Modena,IT,175502,44.647831,10.925390,Italy,"Southern Europe",Europe,IT,ITA,Emilia-Romagna
+14,2147714,Sydney,AU,4394576,-33.867851,151.207321,Australia,"Australia and New Zealand",Oceania,AU,AUS,"New South Wales"
+14,1784658,Zhengzhou,CN,2014125,34.757778,113.648613,China,"Eastern Asia",Asia,CN,CHN,"Henan Sheng"
+14,1311874,Mandalay,MM,1208099,21.974730,96.083588,Myanmar,"Southeast Asia",Asia,MM,MMR,Mandalay
+14,3998655,León,MX,1114626,21.121309,-101.668007,Mexico,"Central America","North America",MX,MEX,Guanajuato
+14,2548885,Fès,MA,964891,34.037151,-4.999800,Morocco,"Northern Africa",Africa,MA,MAR,Fès-Boulemane
+14,1815456,Changzhou,CN,949018,31.773581,119.954010,China,"Eastern Asia",Asia,CN,CHN,"Jiangsu Sheng"
+14,3600949,Tegucigalpa,HN,850848,14.081800,-87.206810,Honduras,"Central America","North America",HN,HND,"Francisco Morazán"
+14,1650527,Balikpapan,ID,433866,-1.267530,116.828873,Indonesia,"Southeast Asia",Asia,ID,IDN,"East Kalimantan"
+14,2947416,Bochum,DE,385729,51.481651,7.216480,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+14,3675443,Manizales,CO,357814,5.068890,-75.517380,Colombia,"South America","South America",CO,COL,Caldas
+14,6058560,London,CA,346765,42.983391,-81.233040,Canada,"North America","North America",CA,CAN,Ontario
+14,5387877,Riverside,US,303871,33.953350,-117.396156,"United States","North America","North America",US,USA,California
+14,7279746,Noida,IN,293908,28.580000,77.330002,India,"Southern and Central Asia",Asia,IN,IND,"Uttar Pradesh"
+14,5295985,Glendale,US,226721,33.538651,-112.185989,"United States","North America","North America",US,USA,Arizona
+14,3130616,"Alcalá de Henares",ES,204574,40.482052,-3.359960,Spain,"Southern Europe",Europe,ES,ESP,Madrid
+14,3169921,Prato,IT,172499,43.884251,11.090920,Italy,"Southern Europe",Europe,IT,ITA,Tuscany
+14,2758401,Breda,NL,167673,51.586559,4.775960,Netherlands,"Western Europe",Europe,NL,NLD,"North Brabant"
+14,5378771,Oceanside,US,167086,33.195869,-117.379478,"United States","North America","North America",US,USA,California
+14,2750053,Nijmegen,NL,158732,51.842499,5.852780,Netherlands,"Western Europe",Europe,NL,NLD,Gelderland
+14,3174659,Livorno,IT,156274,43.542641,10.316000,Italy,"Southern Europe",Europe,IT,ITA,Tuscany
+14,2755003,Haarlem,NL,147590,52.380840,4.636830,Netherlands,"Western Europe",Europe,NL,NLD,"North Holland"
+13,498817,"Saint Petersburg",RU,4039745,59.894440,30.264170,"Russian Federation","Eastern Europe",Europe,RU,RUS,St.-Petersburg
+13,160263,"Dar es Salaam",TZ,2698652,-6.823490,39.269508,Tanzania,"Eastern Africa",Africa,TZ,TZA,"Dar es Salaam"
+13,1805753,Jinan,CN,2069266,36.668331,116.997223,China,"Eastern Asia",Asia,CN,CHN,"Shandong Sheng"
+13,964137,Pretoria,ZA,1619438,-25.744860,28.187830,"South Africa","Southern Africa",Africa,ZA,ZAF,Gauteng
+13,1715348,Davao,PH,1212504,7.073060,125.612778,Philippines,"Southeast Asia",Asia,PH,PHL,Davao
+13,587084,Baku,AZ,1116513,40.377670,49.892010,Azerbaijan,"Middle East",Asia,AZ,AZE,Baki
+13,1790923,Wuxi,CN,1108647,31.568871,120.288567,China,"Eastern Asia",Asia,CN,CHN,"Jiangsu Sheng"
+13,1254163,Thiruvananthapuram,IN,784153,8.485500,76.949242,India,"Southern and Central Asia",Asia,IN,IND,Kerala
+13,3458449,Londrina,BR,471832,-23.310280,-51.162781,Brazil,"South America","South America",BR,BRA,Paraná
+13,554234,Kaliningrad,RU,434954,54.706490,20.510950,"Russian Federation","Eastern Europe",Europe,RU,RUS,Kaliningrad
+13,1856177,Nagasaki-shi,JP,410204,32.744720,129.873611,Japan,"Eastern Asia",Asia,JP,JPN,Nagasaki
+13,6159905,Surrey,CA,394976,49.106350,-122.825089,Canada,"North America","North America",CA,CAN,"British Columbia"
+13,2805753,Wuppertal,DE,360797,51.270271,7.167550,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+13,2949186,Bielefeld,DE,331906,52.033329,8.533330,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+13,5099836,"Jersey City",US,247597,40.728161,-74.077637,"United States","North America","North America",US,USA,"New Jersey"
+13,2624652,Århus,DK,237551,56.156738,10.210760,Denmark,"Nordic Countries",Europe,DK,DNK,"Central Jutland"
+13,3571824,Nassau,BS,227940,25.058229,-77.343063,Bahamas,Caribbean,"North America",BS,BHS,"New Providence"
+13,5391710,"San Bernardino",US,209924,34.108341,-117.289772,"United States","North America","North America",US,USA,California
+13,2643339,Luton,GB,193669,51.879669,-0.417480,"United Kingdom","British Islands",Europe,GB,GBR,England
+13,2792413,Liège,BE,182597,50.633732,5.567490,Belgium,"Western Europe",Europe,BE,BEL,"Walloon Region"
+13,2753801,Hoofddorp,NL,132734,52.302502,4.688890,Netherlands,"Western Europe",Europe,NL,NLD,"North Holland"
+12,3646738,Caracas,VE,3000000,10.488010,-66.879189,Venezuela,"South America","South America",VE,VEN,"Distrito Federal"
+12,1815577,Changsha,CN,2073938,28.198740,112.970871,China,"Eastern Asia",Asia,CN,CHN,Hunan
+12,1526384,Almaty,KZ,2000900,43.256538,76.928482,Kazakhstan,"Southern and Central Asia",Asia,KZ,KAZ,"Almaty Qalasy"
+12,3388368,"São Luís",BR,917237,-2.529720,-44.302780,Brazil,"South America","South America",BR,BRA,Maranhão
+12,1636722,Malang,ID,746716,-7.979700,112.630402,Indonesia,"Southeast Asia",Asia,ID,IDN,"East Java"
+12,3996069,Mexicali,MX,597099,32.651939,-115.468330,Mexico,"Central America","North America",MX,MEX,"Baja California"
+12,3981254,Torreón,MX,524066,25.543329,-103.417603,Mexico,"Central America","North America",MX,MEX,Coahuila
+12,2861650,Nürnberg,DE,499237,49.454208,11.077520,Germany,"Western Europe",Europe,DE,DEU,Bavaria
+12,3459712,Joinville,BR,461304,-26.304440,-48.845558,Brazil,"South America","South America",BR,BRA,"Santa Catarina"
+12,1636544,Manado,ID,451893,1.487000,124.845497,Indonesia,"Southeast Asia",Asia,ID,IDN,"North Sulawesi"
+12,5907364,Brampton,CA,433806,43.683411,-79.766327,Canada,"North America","North America",CA,CAN,Ontario
+12,3083829,Szczecin,PL,407811,53.428940,14.553020,Poland,"Eastern Europe",Europe,PL,POL,"West Pomeranian Voivodeship"
+12,161325,Arusha,TZ,341136,-3.366670,36.683331,Tanzania,"Eastern Africa",Africa,TZ,TZA,Arusha
+12,5392900,"Santa Ana",US,324528,33.745571,-117.867828,"United States","North America","North America",US,USA,California
+12,3099424,Gdynia,PL,253730,54.518890,18.531879,Poland,"Eastern Europe",Europe,PL,POL,"Pomeranian Voivodeship"
+12,2945024,Braunschweig,DE,244715,52.265942,10.526730,Germany,"Western Europe",Europe,DE,DEU,"Lower Saxony"
+12,146268,Nicosia,CY,200452,35.166672,33.366669,Cyprus,"Middle East",Asia,CY,CYP,Lefkosia
+12,1610780,"Hat Yai",TH,191696,7.008360,100.476677,Thailand,"Southeast Asia",Asia,TH,THA,Songkhla
+12,2639912,Preston,GB,190687,53.766670,-2.716670,"United Kingdom","British Islands",Europe,GB,GBR,England
+12,5358705,"Huntington Beach",US,189992,33.660301,-117.999229,"United States","North America","North America",US,USA,California
+12,5351515,"Garden Grove",US,170883,33.773911,-117.941452,"United States","North America","North America",US,USA,California
+12,2759661,Arnhem,NL,141674,51.980000,5.911110,Netherlands,"Western Europe",Europe,NL,NLD,Gelderland
+12,2759821,Amersfoort,NL,139914,52.154999,5.387500,Netherlands,"Western Europe",Europe,NL,NLD,Utrecht
+12,2740637,Coimbra,PT,106582,40.205639,-8.419550,Portugal,"Southern Europe",Europe,PT,PRT,Coimbra
+11,2538475,Rabat,MA,1655753,34.013248,-6.832550,Morocco,"Northern Africa",Africa,MA,MAR,Rabat-Salé-Zemmour-Zaër
+11,1253573,Vadodara,IN,1409476,22.299400,73.208122,India,"Southern and Central Asia",Asia,IN,IND,Gujarāt
+11,1808722,Hefei,CN,1388904,31.863890,117.280830,China,"Eastern Asia",Asia,CN,CHN,"Anhui Sheng"
+11,1813253,Dayan,CN,1137600,26.868790,100.220718,China,"Eastern Asia",Asia,CN,CHN,Yunnan
+11,3979770,Zapopan,MX,987516,20.723560,-103.384789,Mexico,"Central America","North America",MX,MEX,Jalisco
+11,1863289,Hamamatsu,JP,605098,34.700001,137.733337,Japan,"Eastern Asia",Asia,JP,JPN,Shizuoka
+11,2352778,Abuja,NG,590400,9.068530,7.483750,Nigeria,"Western Africa",Africa,NG,NGA,"Abuja Federal Capital Territory"
+11,2013348,Vladivostok,RU,587022,43.105621,131.873535,"Russian Federation","Eastern Europe",Europe,RU,RUS,Primorskiy
+11,1275665,Bīkāner,IN,576015,28.020941,73.307487,India,"Southern and Central Asia",Asia,IN,IND,Rajasthan
+11,3445831,Uberlândia,BR,563536,-18.918610,-48.277222,Brazil,"South America","South America",BR,BRA,"Minas Gerais"
+11,2934691,Duisburg,DE,504358,51.432468,6.765160,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+11,4671240,Arlington,US,365438,32.735691,-97.108070,"United States","North America","North America",US,USA,Texas
+11,765876,Lublin,PL,360044,51.250000,22.566669,Poland,"Eastern Europe",Europe,PL,POL,"Lublin Voivodeship"
+11,3096472,Katowice,PL,317316,50.258419,19.027540,Poland,"Eastern Europe",Europe,PL,POL,"Silesian Voivodeship"
+11,2654993,Bradford,GB,299310,53.793911,-1.752060,"United Kingdom","British Islands",Europe,GB,GBR,England
+11,2641430,Northampton,GB,197322,52.250000,-0.883330,"United Kingdom","British Islands",Europe,GB,GBR,England
+11,633679,Turku,FI,175945,60.451481,22.268690,Finland,"Nordic Countries",Europe,FI,FIN,"Province of Western Finland"
+11,715429,Szeged,HU,164883,46.252998,20.148239,Hungary,"Eastern Europe",Europe,HU,HUN,Csongrád
+11,3033123,Besançon,FR,128426,47.248779,6.018150,France,"Western Europe",Europe,FR,FRA,Franche-Comté
+10,1262180,Nāgpur,IN,2228018,21.150000,79.099998,India,"Southern and Central Asia",Asia,IN,IND,Mahārāshtra
+10,1512569,Tashkent,UZ,1978028,41.264648,69.216270,Uzbekistan,"Southern and Central Asia",Asia,UZ,UZB,"Toshkent Shahri"
+10,2063523,Perth,AU,1446704,-31.952240,115.861397,Australia,"Australia and New Zealand",Oceania,AU,AUS,"Western Australia"
+10,232422,Kampala,UG,1353189,0.316280,32.582191,Uganda,"Eastern Africa",Africa,UG,UGA,"Central Region"
+10,1810821,Fuzhou,CN,1179720,26.061390,119.306107,China,"Eastern Asia",Asia,CN,CHN,Fujian
+10,1809461,Guiyang,CN,1171633,26.583330,106.716667,China,"Eastern Asia",Asia,CN,CHN,"Guizhou Sheng"
+10,3461786,Guarulhos,BR,1169577,-23.462780,-46.533329,Brazil,"South America","South America",BR,BRA,"São Paulo"
+10,3598132,"Guatemala City",GT,994938,14.640720,-90.513268,Guatemala,"Central America","North America",GT,GTM,Guatemala
+10,3448636,"São José dos Campos",BR,613764,-23.179440,-45.886940,Brazil,"South America","South America",BR,BRA,"São Paulo"
+10,5969782,Hamilton,CA,519949,43.250111,-79.849632,Canada,"North America","North America",CA,CAN,Ontario
+10,3449433,Santos,BR,411403,-23.960831,-46.333611,Brazil,"South America","South America",BR,BRA,"São Paulo"
+10,1735227,Kuantan,MY,366229,3.807700,103.325996,Malaysia,"Southeast Asia",Asia,MY,MYS,Pahang
+10,5174035,Toledo,US,287208,41.663940,-83.555206,"United States","North America","North America",US,USA,Ohio
+10,2524170,Messina,IT,252026,38.193272,15.549690,Italy,"Southern Europe",Europe,IT,ITA,Sicily
+10,724443,Košice,SK,236563,48.713951,21.258080,Slovakia,"Eastern Europe",Europe,SK,SVK,Košický
+10,2874545,Magdeburg,DE,229826,52.127731,11.629160,Germany,"Western Europe",Europe,DE,DEU,Saxony-Anhalt
+10,5122520,Jamaica,US,216866,40.691490,-73.805687,"United States","North America","North America",US,USA,"New York"
+10,5350734,Fremont,US,214089,37.548271,-121.988571,"United States","North America","North America",US,USA,California
+10,5373900,Modesto,US,201165,37.639099,-120.996880,"United States","North America","North America",US,USA,California
+10,5380184,Oxnard,US,197899,34.197498,-119.177048,"United States","North America","North America",US,USA,California
+10,2980291,Saint-Étienne,FR,176280,45.433331,4.400000,France,"Western Europe",Europe,FR,FRA,Rhône-Alpes
+10,3068160,Plzeň,CZ,164180,49.747471,13.377590,"Czech Republic","Eastern Europe",Europe,CZ,CZE,Plzeňský
+10,3037854,Amiens,FR,143086,49.900002,2.300000,France,"Western Europe",Europe,FR,FRA,Picardie
+10,3168673,Salerno,IT,138188,40.677971,14.765990,Italy,"Southern Europe",Europe,IT,ITA,Campania
+9,344979,"Addis Ababa",ET,2757729,9.024970,38.746891,Ethiopia,"Eastern Africa",Africa,ET,ETH,"Ādīs Ābeba"
+9,2253354,Dakar,SN,2476400,14.693700,-17.444059,Senegal,"Western Africa",Africa,SN,SEN,Dakar
+9,1269743,Indore,IN,1837041,22.717920,75.833298,India,"Southern and Central Asia",Asia,IN,IND,"Madhya Pradesh"
+9,1264728,Ludhiāna,IN,1545368,30.900150,75.852287,India,"Southern and Central Asia",Asia,IN,IND,Punjab
+9,109223,Medina,SA,1300000,24.468611,39.614170,"Saudi Arabia","Middle East",Asia,SA,SAU,"Al Madīnah"
+9,3718426,Port-au-Prince,HT,1234742,18.539169,-72.334999,Haiti,Caribbean,"North America",HT,HTI,Ouest
+9,1271951,Farīdābād,IN,1220229,28.412519,77.319771,India,"Southern and Central Asia",Asia,IN,IND,Haryana
+9,1804651,Kunming,CN,1023674,25.038891,102.718330,China,"Eastern Asia",Asia,CN,CHN,Yunnan
+9,2113015,Chiba,JP,919729,35.604721,140.123337,Japan,"Eastern Asia",Asia,JP,JPN,Chiba
+9,1264521,Madurai,IN,909908,9.917350,78.119621,India,"Southern and Central Asia",Asia,IN,IND,"Tamil Nādu"
+9,1633419,Padang,ID,840352,-0.949240,100.354271,Indonesia,"Southeast Asia",Asia,ID,IDN,"West Sumatra"
+9,3093133,Łódź,PL,768755,51.750000,19.466669,Poland,"Eastern Europe",Europe,PL,POL,"Łódź Voivodeship"
+9,1275817,Bhubaneshwar,IN,762243,20.272409,85.833847,India,"Southern and Central Asia",Asia,IN,IND,Orissa
+9,3467747,"Campo Grande",BR,729151,-20.442780,-54.646389,Brazil,"South America","South America",BR,BRA,"Estado de Mato Grosso do Sul"
+9,2464470,Tunis,TN,693210,36.818970,10.165790,Tunisia,"Northern Africa",Africa,TN,TUN,Tūnis
+9,2530335,Tangier,MA,688356,35.767269,-5.799750,Morocco,"Northern Africa",Africa,MA,MAR,Tanger-Tétouan
+9,3102014,Bydgoszcz,PL,366452,53.123501,18.007620,Poland,"Eastern Europe",Europe,PL,POL,Kujawsko-Pomorskie
+9,2644668,Leicester,GB,339239,52.638599,-1.131690,"United Kingdom","British Islands",Europe,GB,GBR,England
+9,680963,Constanţa,RO,303399,44.183331,28.650000,Romania,"Eastern Europe",Europe,RO,ROM,Constanţa
+9,2645425,Hull,GB,302296,53.744598,-0.335250,"United Kingdom","British Islands",Europe,GB,GBR,England
+9,2940132,Chemnitz,DE,247220,50.833328,12.916670,Germany,"Western Europe",Europe,DE,DEU,Saxony
+9,2520058,Cartagena,ES,211996,37.605122,-0.986230,Spain,"Southern Europe",Europe,ES,ESP,Murcia
+9,3083271,Toruń,PL,208717,53.013748,18.598141,Poland,"Eastern Europe",Europe,PL,POL,Kujawsko-Pomorskie
+9,3165926,Taranto,IT,202033,40.476109,17.229719,Italy,"Southern Europe",Europe,IT,ITA,Apulia
+9,632453,Vantaa,FI,190058,60.294140,25.040991,Finland,"Nordic Countries",Europe,FI,FIN,"Southern Finland Province"
+9,2867838,"Mülheim (Ruhr)",DE,171000,51.433331,6.883330,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+9,2972328,Toulon,FR,168701,43.116669,5.933330,France,"Western Europe",Europe,FR,FRA,"Provence-Alpes-Côte d'Azur"
+9,2864118,Neuß,DE,152457,51.198071,6.685040,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+9,2759706,Apeldoorn,NL,136670,52.209999,5.969440,Netherlands,"Western Europe",Europe,NL,NLD,Gelderland
+8,361058,Alexandria,EG,3811516,31.215639,29.955271,Egypt,"Northern Africa",Africa,EG,EGY,Alexandria
+8,2037013,Harbin,CN,3229883,45.750000,126.650002,China,"Eastern Asia",Asia,CN,CHN,"Heilongjiang Sheng"
+8,1255364,Sūrat,IN,2894504,21.195940,72.830231,India,"Southern and Central Asia",Asia,IN,IND,Gujarāt
+8,2038180,Changchun,CN,2537421,43.880001,125.322777,China,"Eastern Asia",Asia,CN,CHN,"Jilin Sheng"
+8,2507480,Algiers,DZ,1977663,36.752499,3.041970,Algeria,"Northern Africa",Africa,DZ,DZA,Alger
+8,1625084,Tangerang,ID,1372124,-6.178060,106.629997,Indonesia,"Southeast Asia",Asia,ID,IDN,"West Java"
+8,909137,Lusaka,ZM,1267440,-15.406690,28.287130,Zambia,"Eastern Africa",Africa,ZM,ZMB,Lusaka
+8,1273865,Coimbatore,IN,959823,11.005550,76.966118,India,"Southern and Central Asia",Asia,IN,IND,"Tamil Nādu"
+8,3685533,Cúcuta,CO,721398,7.893910,-72.507820,Colombia,"South America","South America",CO,COL,"Norte de Santander"
+8,2485926,Oran,DZ,645984,35.691109,-0.641670,Algeria,"Northern Africa",Africa,DZ,DZA,Oran
+8,5992996,Kitchener,CA,409112,43.425369,-80.511200,Canada,"North America","North America",CA,CAN,Ontario
+8,1863641,Gifu-shi,JP,397714,35.422909,136.760391,Japan,"Eastern Asia",Asia,JP,JPN,Gifu
+8,1711005,Iloilo,PH,387681,10.696940,122.564438,Philippines,"Southeast Asia",Asia,PH,PHL,"Western Visayas"
+8,3448639,"São José do Rio Preto",BR,374699,-20.819719,-49.379440,Brazil,"South America","South America",BR,BRA,"São Paulo"
+8,3470279,Bauru,BR,335024,-22.314720,-49.060558,Brazil,"South America","South America",BR,BRA,"São Paulo"
+8,1216265,Samarqand,UZ,319366,39.654171,66.959717,Uzbekistan,"Southern and Central Asia",Asia,UZ,UZB,Samarqand
+8,2921466,Gelsenkirchen,DE,270028,51.507500,7.122830,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+8,660158,Espoo,FI,256760,60.205200,24.652201,Finland,"Nordic Countries",Europe,FI,FIN,"Southern Finland Province"
+8,2633691,Wolverhampton,GB,252791,52.585468,-2.122960,"United Kingdom","British Islands",Europe,GB,GBR,England
+8,2884509,Krefeld,DE,237984,51.339211,6.586150,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+8,2518559,Elche,ES,230112,38.262180,-0.701070,Spain,"Southern Europe",Europe,ES,ESP,Valencia
+8,5134086,Rochester,US,210565,43.154781,-77.615562,"United States","North America","North America",US,USA,"New York"
+8,4956184,Worcester,US,181045,42.262589,-71.802292,"United States","North America","North America",US,USA,Massachusetts
+8,5224151,Providence,US,178042,41.823990,-71.412827,"United States","North America","North America",US,USA,"Rhode Island"
+8,5357527,Hollywood,US,167664,34.098339,-118.326736,"United States","North America","North America",US,USA,California
+8,4169171,"Port Saint Lucie",US,164603,27.293930,-80.350327,"United States","North America","North America",US,USA,Florida
+8,643492,Oulu,FI,128618,65.012360,25.468161,Finland,"Nordic Countries",Europe,FI,FIN,Oulu
+7,1007311,Durban,ZA,3120282,-29.857901,31.029200,"South Africa","Southern Africa",Africa,ZA,ZAF,KwaZulu-Natal
+7,1915223,Zhongshan,CN,2493400,21.322559,110.582909,China,"Eastern Asia",Asia,CN,CHN,"Guangdong Province"
+7,1264733,Lucknow,IN,2472011,26.839279,80.923126,India,"Southern and Central Asia",Asia,IN,IND,"Uttar Pradesh"
+7,1859642,Kawasaki,JP,1306785,35.520561,139.717224,Japan,"Eastern Asia",Asia,JP,JPN,Kanagawa
+7,325363,Adana,TR,1248988,37.001671,35.328892,Turkey,"Middle East",Asia,TR,TUR,Adana
+7,1258847,Rājkot,IN,1177362,22.291611,70.793221,India,"Southern and Central Asia",Asia,IN,IND,Gujarāt
+7,314830,Gaziantep,TR,1065975,37.059441,37.382500,Turkey,"Middle East",Asia,TR,TUR,Gaziantep
+7,306571,Konya,TR,875530,37.871349,32.484638,Turkey,"Middle East",Asia,TR,TUR,Konya
+7,1648473,Bogor,ID,800000,-6.594440,106.789169,Indonesia,"Southeast Asia",Asia,ID,IDN,"West Java"
+7,110336,Dammam,SA,768602,26.434420,50.103260,"Saudi Arabia","Middle East",Asia,SA,SAU,"Eastern Province"
+7,8504423,"Subang Jaya",MY,708296,3.043840,101.580620,Malaysia,"Southeast Asia",Asia,MY,MYS,Selangor
+7,1732903,"Shah Alam",MY,481654,3.085070,101.532806,Malaysia,"Southeast Asia",Asia,MY,MYS,Selangor
+7,6050610,Laval,CA,376845,45.569950,-73.692001,Canada,"North America","North America",CA,CAN,Quebec
+7,1605239,"Udon Thani",TH,247231,17.415670,102.785889,Thailand,"Southeast Asia",Asia,TH,THA,"Changwat Udon Thani"
+7,4693003,Garland,US,226876,32.912621,-96.638878,"United States","North America","North America",US,USA,Texas
+7,2860410,Oberhausen,DE,219176,51.473110,6.880740,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+7,1606250,"Si Racha",TH,178916,13.173720,100.931107,Thailand,"Southeast Asia",Asia,TH,THA,"Chon Buri"
+7,2856883,Osnabrück,DE,166462,52.272640,8.049800,Germany,"Western Europe",Europe,DE,DEU,"Lower Saxony"
+7,5385955,"Rancho Cucamonga",US,165269,34.106400,-117.593109,"United States","North America","North America",US,USA,California
+7,2790471,Namur,BE,106284,50.466900,4.867460,Belgium,"Western Europe",Europe,BE,BEL,"Walloon Region"
+6,1793511,Taiyuan,CN,2722475,37.869438,112.560280,China,"Eastern Asia",Asia,CN,CHN,"Shanxi Sheng"
+6,1800163,Nanchang,CN,1871351,28.683331,115.883331,China,"Eastern Asia",Asia,CN,CHN,"Jiangxi Sheng"
+6,1275841,Bhopāl,IN,1599914,23.254690,77.402893,India,"Southern and Central Asia",Asia,IN,IND,"Madhya Pradesh"
+6,890299,Harare,ZW,1542813,-17.827721,31.053370,Zimbabwe,"Eastern Africa",Africa,ZW,ZWE,"Harare Province"
+6,1486209,Yekaterinburg,RU,1287573,56.857498,60.612499,"Russian Federation","Eastern Europe",Europe,RU,RUS,Sverdlovsk
+6,1842485,Goyang,KR,1073069,37.656391,126.834999,"South Korea","Eastern Asia",Asia,KR,KOR,"Gyeonggi Province"
+6,3919968,Cochabamba,BO,900414,-17.389500,-66.156799,Bolivia,"South America","South America",BO,BOL,Cochabamba
+6,1528675,Bishkek,KG,900000,42.869999,74.589996,Kyrgyzstan,"Southern and Central Asia",Asia,KG,KGZ,Bishkek
+6,1853195,Sakai,JP,782339,34.583328,135.466675,Japan,"Eastern Asia",Asia,JP,JPN,Ōsaka
+6,468902,Yaroslavl',RU,606730,57.629871,39.873680,"Russian Federation","Eastern Europe",Europe,RU,RUS,Jaroslavl
+6,3447399,Sorocaba,BR,558862,-23.501671,-47.458061,Brazil,"South America","South America",BR,BRA,"São Paulo"
+6,2542715,Meknès,MA,545705,33.893520,-5.547270,Morocco,"Northern Africa",Africa,MA,MAR,Meknès-Tafilalet
+6,3520339,Reynosa,MX,498654,26.076811,-98.297478,Mexico,"Central America","North America",MX,MEX,Tamaulipas
+6,1862627,Himeji,JP,481493,34.816669,134.699997,Japan,"Eastern Asia",Asia,JP,JPN,Hyōgo
+6,5139568,"Staten Island",US,468730,40.562328,-74.139862,"United States","North America","North America",US,USA,"New York"
+6,4011743,Durango,MX,457140,24.033331,-104.666672,Mexico,"Central America","North America",MX,MEX,Durango
+6,3456283,Niterói,BR,456456,-22.883329,-43.103611,Brazil,"South America","South America",BR,BRA,"Rio de Janeiro"
+6,1630789,Pontianak,ID,455173,-0.033330,109.333328,Indonesia,"Southeast Asia",Asia,ID,IDN,"West Kalimantan"
+6,1721080,"Cagayan de Oro",PH,445103,8.482220,124.647217,Philippines,"Southeast Asia",Asia,PH,PHL,"Northern Mindanao"
+6,1858311,Kurashiki,JP,437581,34.583328,133.766663,Japan,"Eastern Asia",Asia,JP,JPN,Okayama
+6,1863917,Fukuyama,JP,383298,34.483330,133.366669,Japan,"Eastern Asia",Asia,JP,JPN,Hiroshima
+6,491422,Sochi,RU,327608,43.599171,39.725689,"Russian Federation","Eastern Europe",Europe,RU,RUS,Krasnodarskiy
+6,3459462,Jundiaí,BR,321589,-23.186390,-46.884171,Brazil,"South America","South America",BR,BRA,"São Paulo"
+6,3068799,Ostrava,CZ,313088,49.834648,18.282040,"Czech Republic","Eastern Europe",Europe,CZ,CZE,Moravskoslezský
+6,2867543,Münster,DE,270184,51.962360,7.625710,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+6,670474,Ploieşti,RO,228851,44.950001,26.016670,Romania,"Eastern Europe",Europe,RO,ROM,Prahova
+6,671768,Oradea,RO,206614,47.066669,21.933331,Romania,"Eastern Europe",Europe,RO,ROM,Bihor
+6,721472,Debrecen,HU,204124,47.533329,21.633329,Hungary,"Eastern Europe",Europe,HU,HUN,Hajdú-Bihar
+6,2746301,Tilburg,NL,199613,51.555511,5.091300,Netherlands,"Western Europe",Europe,NL,NLD,"North Brabant"
+6,2912621,Hagen,DE,198972,51.360809,7.471680,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+6,5349755,Fontana,US,196069,34.092232,-117.435051,"United States","North America","North America",US,USA,California
+6,763166,Olsztyn,PL,171803,53.779949,20.494160,Poland,"Eastern Europe",Europe,PL,POL,"Warmian-Masurian Voivodeship"
+6,2878234,Leverkusen,DE,162738,51.030300,6.984320,Germany,"Western Europe",Europe,DE,DEU,"North Rhine-Westphalia"
+6,3046526,Pécs,HU,156649,46.083328,18.233330,Hungary,"Eastern Europe",Europe,HU,HUN,"Baranya county"
+6,2262963,Setúbal,PT,117110,38.524399,-8.888200,Portugal,"Southern Europe",Europe,PT,PRT,Setúbal
