@@ -1,13 +1,13 @@
 import { openai } from '@ai-sdk/openai';
 import { Agent } from '@mastra/core/agent';
-import { pdfFetcherTool } from '../tools/pdf-fetcher-tool';
-import { questionGeneratorTool } from '../tools/question-generator-tool';
-import { textExtractorTool } from '../tools/text-extractor-tool';
+import { pdfFetcherTool } from '../tools/download-pdf-tool';
+import { generateQuestionsFromTextTool } from '../tools/generate-questions-from-text-tool';
+import { extractTextFromPDFTool } from '../tools/extract-text-from-pdf-tool';
 
-export const pdfQuestionsAgent = new Agent({
-  name: 'PDF Questions Agent',
+export const pdfQuestionAgent = new Agent({
+  name: 'Generate questions from PDF agent',
   description:
-    'An agent that can download PDFs, extract text, and generate questions from PDF content',
+    'An agent that can download PDFs, extract text, and generate questions from the PDF text',
   instructions: `
 You are a PDF processing agent specialized in downloading PDFs, extracting text, and generating educational questions.
 
@@ -63,7 +63,7 @@ Always be helpful and provide clear feedback about the process and results.
   model: openai('gpt-4.1-mini'),
   tools: {
     pdfFetcherTool,
-    textExtractorTool,
-    questionGeneratorTool,
+    extractTextFromPDFTool,
+    generateQuestionsFromTextTool,
   },
 });

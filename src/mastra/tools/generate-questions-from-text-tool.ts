@@ -1,9 +1,11 @@
 import { createTool } from '@mastra/core/tools';
 import { z } from 'zod';
 
-export const questionGeneratorTool = createTool({
-  id: 'question-generator',
-  description: 'Generates comprehensive questions from extracted text content',
+const MAX_TEXT_LENGTH = 4000;
+
+export const generateQuestionsFromTextTool = createTool({
+  id: 'generate-questions-from-text-tool',
+  description: 'Generates comprehensive questions from text content',
   inputSchema: z.object({
     extractedText: z.string().describe('The extracted text to generate questions from'),
     maxQuestions: z.number().optional().describe('Maximum number of questions to generate (default: 10)'),
@@ -28,9 +30,9 @@ export const questionGeneratorTool = createTool({
     }
 
     // Simple check for very large documents
-    if (extractedText.length > 10000) {
+    if (extractedText.length > MAX_TEXT_LENGTH) {
       console.warn('⚠️ Document is very large. Consider using a smaller PDF to avoid token limits.');
-      console.warn('⚠️ Using first 4000 characters only...');
+      console.warn(`⚠️ Using first ${MAX_TEXT_LENGTH} characters only...`);
     }
 
     try {
@@ -46,7 +48,7 @@ export const questionGeneratorTool = createTool({
 Please create questions that test understanding, analysis, and application of the content.
 Generate up to ${maxQuestions} questions:
 
-${extractedText.substring(0, 4000)}`,
+${extractedText.substring(0, MAX_TEXT_LENGTH)}`,
         },
       ]);
 

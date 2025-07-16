@@ -1,15 +1,15 @@
 import { Mastra } from '@mastra/core/mastra';
 import { PinoLogger } from '@mastra/loggers';
 import { LibSQLStore } from '@mastra/libsql';
-import { pdfToQuestionsWorkflow } from './workflows/pdfToQuestionsWorkflow';
-import { questionGeneratorAgent } from './agents/questionGeneratorAgent';
-import { pdfQuestionsAgent } from './agents/pdf-questions-agent';
+import { pdfToQuestionsWorkflow } from './workflows/generate-questions-from-pdf-workflow';
+import { textQuestionAgent } from './agents/text-question-agent';
+import { pdfQuestionAgent } from './agents/pdf-question-agent';
 
 export const mastra = new Mastra({
   workflows: { pdfToQuestionsWorkflow },
   agents: {
-    questionGeneratorAgent,
-    pdfQuestionsAgent,
+    questionGeneratorAgent: textQuestionAgent,
+    pdfQuestionsAgent: pdfQuestionAgent,
   },
   storage: new LibSQLStore({
     // stores telemetry, evals, ... into memory storage, if it needs to persist, change to file:../mastra.db
