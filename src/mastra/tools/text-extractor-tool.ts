@@ -1,6 +1,6 @@
 import { createTool } from '@mastra/core/tools';
 import { z } from 'zod';
-import { extractTextFromPDFSimple } from './simpleOCR';
+import { extractTextFromPDF } from '../lib/util';
 
 export const textExtractorTool = createTool({
   id: 'text-extractor',
@@ -23,13 +23,15 @@ export const textExtractorTool = createTool({
     }
 
     try {
-      const result = await extractTextFromPDFSimple(pdfBuffer);
+      const result = await extractTextFromPDF(pdfBuffer);
 
       if (!result.extractedText || result.extractedText.trim() === '') {
         throw new Error('No text could be extracted from the provided PDF');
       }
 
-      console.log(`✅ Text extraction successful: ${result.extractedText.length} characters from ${result.pagesCount} pages`);
+      console.log(
+        `✅ Text extraction successful: ${result.extractedText.length} characters from ${result.pagesCount} pages`
+      );
 
       return {
         extractedText: result.extractedText,
@@ -37,7 +39,8 @@ export const textExtractorTool = createTool({
         characterCount: result.extractedText.length,
       };
     } catch (error) {
-      const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+      const errorMessage =
+        error instanceof Error ? error.message : 'Unknown error';
       console.error('❌ Text extraction failed:', errorMessage);
       throw new Error(`Text extraction failed: ${errorMessage}`);
     }
