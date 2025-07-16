@@ -3,9 +3,9 @@ import { z } from 'zod';
 
 const MAX_TEXT_LENGTH = 4000;
 
-export const questionGeneratorTool = createTool({
-  id: 'question-generator',
-  description: 'Generates comprehensive questions from extracted text content',
+export const generateQuestionsFromTextTool = createTool({
+  id: 'generate-questions-from-text-tool',
+  description: 'Generates comprehensive questions from text content',
   inputSchema: z.object({
     extractedText: z.string().describe('The extracted text to generate questions from'),
     maxQuestions: z.number().optional().describe('Maximum number of questions to generate (default: 10)'),

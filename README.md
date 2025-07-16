@@ -83,9 +83,9 @@ for await (const chunk of response.textStream) {
 
 ```typescript
 import { mastra } from './src/mastra/index';
-import { pdfFetcherTool } from './src/mastra/tools/pdf-fetcher-tool';
-import { textExtractorTool } from './src/mastra/tools/text-extractor-tool';
-import { questionGeneratorTool } from './src/mastra/tools/question-generator-tool';
+import { pdfFetcherTool } from './src/mastra/tools/download-pdf-tool';
+import { extractTextFromPDFTool } from './src/mastra/tools/extract-text-from-pdf-tool';
+import { generateQuestionsFromTextTool } from './src/mastra/tools/generate-questions-from-text-tool';
 
 // Step 1: Download PDF
 const pdfResult = await pdfFetcherTool.execute({
@@ -94,13 +94,13 @@ const pdfResult = await pdfFetcherTool.execute({
 });
 
 // Step 2: Extract text
-const textResult = await textExtractorTool.execute({
+const textResult = await extractTextFromPDFTool.execute({
   context: { pdfBuffer: pdfResult.pdfBuffer },
   runtimeContext: new RuntimeContext(),
 });
 
 // Step 3: Generate questions
-const questionsResult = await questionGeneratorTool.execute({
+const questionsResult = await generateQuestionsFromTextTool.execute({
   context: {
     extractedText: textResult.extractedText,
     maxQuestions: 10
@@ -134,15 +134,14 @@ console.log(questionsResult.questions);
 ### Components
 
 - **`pdfToQuestionsWorkflow`**: Main workflow orchestrating the process
-- **`questionGeneratorAgent`**: Mastra agent specialized in generating educational questions
-- **`pdfQuestionsAgent`**: Complete agent that can handle the full PDF to questions pipeline
-- **`simpleOCR`**: Pure JavaScript PDF text extraction (no system dependencies)
+- **`textQuestionAgent`**: Mastra agent specialized in generating educational questions
+- **`pdfQuestionAgent`**: Complete agent that can handle the full PDF to questions pipeline
 
 ### Tools
 
 - **`pdfFetcherTool`**: Downloads PDF files from URLs and returns buffers
-- **`textExtractorTool`**: Extracts text from PDF buffers using OCR
-- **`questionGeneratorTool`**: Generates comprehensive questions from extracted text
+- **`extractTextFromPDFTool`**: Extracts text from PDF buffers using text parsing
+- **`generateQuestionsFromTextTool`**: Generates comprehensive questions from extracted text
 
 ### Workflow Steps
 
@@ -190,11 +189,11 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 ### Customization
 
-You can customize the question generation by modifying the `questionGeneratorAgent`:
+You can customize the question generation by modifying the `textQuestionAgent`:
 
 ```typescript
-export const questionGeneratorAgent = new Agent({
-  name: 'Question Generator Pro',
+export const textQuestionAgent = new Agent({
+  name: 'Generate questions from text agent',
   instructions: `
     You are an expert educational content creator...
     // Customize instructions here
@@ -210,11 +209,16 @@ export const questionGeneratorAgent = new Agent({
 ```text
 src/mastra/
 ├── agents/
-│   └── questionGeneratorAgent.ts    # Question generation agent
+│   ├── pdf-question-agent.ts       # PDF processing and question generation agent
+│   └── text-question-agent.ts      # Text to questions generation agent
 ├── tools/
-│   └── simpleOCR.ts                 # Pure JavaScript PDF parser
+│   ├── download-pdf-tool.ts         # PDF download tool
+│   ├── extract-text-from-pdf-tool.ts # PDF text extraction tool
+│   └── generate-questions-from-text-tool.ts # Question generation tool
 ├── workflows/
-│   └── pdfToQuestionsWorkflow.ts    # Main workflow
+│   └── generate-questions-from-pdf-workflow.ts # Main workflow
+├── lib/
+│   └── util.ts                      # Utility functions including PDF text extraction
 └── index.ts                         # Mastra configuration
 ```
 

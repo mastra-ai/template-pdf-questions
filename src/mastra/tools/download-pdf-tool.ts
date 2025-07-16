@@ -2,7 +2,7 @@ import { createTool } from '@mastra/core/tools';
 import { z } from 'zod';
 
 export const pdfFetcherTool = createTool({
-  id: 'pdf-fetcher',
+  id: 'download-pdf-tool',
   description: 'Downloads a PDF from a URL and returns the file buffer',
   inputSchema: z.object({
     pdfUrl: z.string().describe('URL to the PDF file to download'),

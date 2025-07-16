@@ -2,8 +2,8 @@ import { createTool } from "@mastra/core/tools";
 import { z } from "zod";
 import { extractTextFromPDF } from "../lib/util";
 
-export const textExtractorTool = createTool({
-  id: "text-extractor",
+export const extractTextFromPDFTool = createTool({
+  id: "extract-text-from-pdf-tool",
   description: "Extracts text from a PDF buffer using OCR",
   inputSchema: z.object({
     pdfBuffer: z.instanceof(Buffer).describe("The PDF file buffer to process"),

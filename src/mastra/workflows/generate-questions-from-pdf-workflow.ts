@@ -1,9 +1,9 @@
 import { createStep, createWorkflow } from '@mastra/core/workflows';
 import { z } from 'zod';
 import { RuntimeContext } from "@mastra/core/di";
-import { pdfFetcherTool } from '../tools/pdf-fetcher-tool';
-import { textExtractorTool } from '../tools/text-extractor-tool';
-import { questionGeneratorTool } from '../tools/question-generator-tool';
+import { pdfFetcherTool } from '../tools/download-pdf-tool';
+import { extractTextFromPDFTool } from '../tools/extract-text-from-pdf-tool';
+import { generateQuestionsFromTextTool } from '../tools/generate-questions-from-text-tool';
 
 // Define schemas for input and outputs
 const pdfInputSchema = z.object({
@@ -64,7 +64,7 @@ const extractTextStep = createStep({
       throw new Error('Invalid PDF file provided');
     }
 
-    const result = await textExtractorTool.execute({
+    const result = await extractTextFromPDFTool.execute({
       context: { pdfBuffer: pdfFile },
       mastra,
       runtimeContext: runtimeContext || new RuntimeContext(),
@@ -102,7 +102,7 @@ const generateQuestionsStep = createStep({
     }
 
     try {
-      const result = await questionGeneratorTool.execute({
+      const result = await generateQuestionsFromTextTool.execute({
         context: { extractedText },
         mastra,
         runtimeContext: runtimeContext || new RuntimeContext(),
@@ -124,7 +124,7 @@ const generateQuestionsStep = createStep({
 
 // Define the workflow with simple sequential steps
 export const pdfToQuestionsWorkflow = createWorkflow({
-  id: 'pdf-to-questions',
+  id: 'generate-questions-from-pdf-workflow',
   description:
     'Downloads PDF from URL, extracts text, and generates questions from the content',
   inputSchema: pdfInputSchema,

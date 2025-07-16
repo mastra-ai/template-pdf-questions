@@ -1,9 +1,9 @@
 import { Agent } from '@mastra/core/agent';
 import { openai } from '@ai-sdk/openai';
 
-export const questionGeneratorAgent = new Agent({
-  name: 'Question Generator Pro',
-  description: 'An agent specialized in generating comprehensive questions from document content',
+export const textQuestionAgent = new Agent({
+  name: 'Generate questions from text agent',
+  description: 'An agent specialized in generating comprehensive questions from text',
   instructions: `
 You're an expert question generator who creates thoughtful, varied questions based on provided content. Your goal is to generate questions that test different levels of understanding.
 
