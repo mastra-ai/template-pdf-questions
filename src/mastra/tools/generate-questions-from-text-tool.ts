@@ -36,7 +36,7 @@ export const generateQuestionsFromTextTool = createTool({
     }
 
     try {
-      const agent = mastra?.getAgent('questionGeneratorAgent');
+      const agent = mastra?.getAgent('textQuestionAgent');
       if (!agent) {
         throw new Error('Question generator agent not found');
       }
@@ -100,20 +100,20 @@ function parseQuestionsFromText(text: string, maxQuestions: number): string[] {
   // Split by common question patterns and clean up
   const lines = text
     .split('\n')
-    .map((line) => line.trim())
-    .filter((line) => line.length > 0)
-    .filter((line) => line.includes('?') || line.match(/^\d+[\.\)]/)); // Question marks or numbered items
+    .map(line => line.trim())
+    .filter(line => line.length > 0)
+    .filter(line => line.includes('?') || line.match(/^\d+[\.\)]/)); // Question marks or numbered items
 
   // Extract actual questions
   const questions = lines
-    .map((line) => {
+    .map(line => {
       // Remove numbering patterns like "1.", "1)", etc.
       let cleaned = line.replace(/^\d+[\.\)]\s*/, '');
       // Remove bullet points
       cleaned = cleaned.replace(/^[\-\*\•]\s*/, '');
       return cleaned.trim();
     })
-    .filter((q) => q.length > 5) // Filter out very short strings
+    .filter(q => q.length > 5) // Filter out very short strings
     .slice(0, maxQuestions); // Limit to specified max questions
 
   return questions;

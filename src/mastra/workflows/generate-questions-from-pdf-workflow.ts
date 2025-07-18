@@ -1,8 +1,7 @@
 import { createStep, createWorkflow } from '@mastra/core/workflows';
 import { z } from 'zod';
-import { RuntimeContext } from "@mastra/core/di";
+import { RuntimeContext } from '@mastra/core/di';
 import { pdfFetcherTool } from '../tools/download-pdf-tool';
-import { extractTextFromPDFTool } from '../tools/extract-text-from-pdf-tool';
 import { generateQuestionsFromTextTool } from '../tools/generate-questions-from-text-tool';
 
 // Define schemas for input and outputs
@@ -10,29 +9,26 @@ const pdfInputSchema = z.object({
   pdfUrl: z.string().describe('URL to a PDF file to download and process'),
 });
 
-const extractedTextSchema = z.object({
-  extractedText: z.string().describe('The text extracted from the PDF'),
+const pdfSummarySchema = z.object({
+  summary: z.string().describe('The AI-generated summary of the PDF content'),
+  fileSize: z.number().describe('Size of the downloaded file in bytes'),
+  pagesCount: z.number().describe('Number of pages in the PDF'),
+  characterCount: z.number().describe('Number of characters extracted from the PDF'),
 });
 
 const questionsSchema = z.object({
-  questions: z
-    .array(z.string())
-    .describe('The generated questions from the PDF content'),
-  success: z
-    .boolean()
-    .describe('Indicates if the question generation was successful'),
+  questions: z.array(z.string()).describe('The generated questions from the PDF content'),
+  success: z.boolean().describe('Indicates if the question generation was successful'),
 });
 
-// Step 1: Download PDF from URL if needed
-const downloadPdfStep = createStep({
-  id: 'download-pdf',
-  description: 'Downloads PDF from URL if URL is provided',
+// Step 1: Download PDF and generate summary
+const downloadAndSummarizePdfStep = createStep({
+  id: 'download-and-summarize-pdf',
+  description: 'Downloads PDF from URL and generates an AI summary',
   inputSchema: pdfInputSchema,
-  outputSchema: z.object({
-    pdfFile: z.instanceof(Buffer).describe('The downloaded PDF file buffer'),
-  }),
+  outputSchema: pdfSummarySchema,
   execute: async ({ inputData, mastra, runtimeContext }) => {
-    console.log('Executing Step: download-pdf');
+    console.log('Executing Step: download-and-summarize-pdf');
     const { pdfUrl } = inputData;
 
     const result = await pdfFetcherTool.execute({
@@ -42,95 +38,54 @@ const downloadPdfStep = createStep({
     });
 
     console.log(
-      `Step download-pdf: Succeeded - Downloaded ${result.fileSize} bytes`
+      `Step download-and-summarize-pdf: Succeeded - Downloaded ${result.fileSize} bytes, extracted ${result.characterCount} characters from ${result.pagesCount} pages, generated ${result.summary.length} character summary`,
     );
-    return { pdfFile: result.pdfBuffer };
+
+    return result;
   },
 });
 
-// Step 2: Extract Text from PDF
-const extractTextStep = createStep({
-  id: 'extract-text',
-  description: 'Extracts text from the provided PDF file using OCR',
-  inputSchema: z.object({
-    pdfFile: z.instanceof(Buffer).describe('The PDF file buffer to process'),
-  }),
-  outputSchema: extractedTextSchema,
-  execute: async ({ inputData, mastra, runtimeContext }) => {
-    console.log('Executing Step: extract-text', {inputData});
-    const { pdfFile } = inputData;
-
-    if (!pdfFile || !(pdfFile instanceof Buffer)) {
-      throw new Error('Invalid PDF file provided');
-    }
-
-    const result = await extractTextFromPDFTool.execute({
-      context: { pdfBuffer: pdfFile },
-      mastra,
-      runtimeContext: runtimeContext || new RuntimeContext(),
-    });
-
-    const extractedText = result.extractedText;
-
-    if (!extractedText || extractedText.trim() === '') {
-      console.error('No text could be extracted from the PDF');
-      throw new Error('No text could be extracted from the provided PDF');
-    }
-
-    console.log(
-      `Step extract-text: Succeeded - Extracted ${extractedText.length} characters`
-    );
-
-    return { extractedText };
-  },
-});
-
-// Step 3: Generate Questions from Extracted Text
-const generateQuestionsStep = createStep({
-  id: 'generate-questions',
-  description: 'Generates questions from the extracted PDF text',
-  inputSchema: extractedTextSchema,
+// Step 2: Generate Questions from Summary
+const generateQuestionsFromSummaryStep = createStep({
+  id: 'generate-questions-from-summary',
+  description: 'Generates questions from the AI-generated PDF summary',
+  inputSchema: pdfSummarySchema,
   outputSchema: questionsSchema,
   execute: async ({ inputData, mastra, runtimeContext }) => {
-    console.log('Executing Step: generate-questions');
+    console.log('Executing Step: generate-questions-from-summary');
 
-    const { extractedText } = inputData;
+    const { summary } = inputData;
 
-    if (!extractedText) {
-      console.error('Missing extracted text in question generation step');
+    if (!summary) {
+      console.error('Missing summary in question generation step');
       return { questions: [], success: false };
     }
 
     try {
       const result = await generateQuestionsFromTextTool.execute({
-        context: { extractedText },
+        context: { extractedText: summary }, // Use summary as the text input
         mastra,
         runtimeContext: runtimeContext || new RuntimeContext(),
       });
 
       console.log(
-        `Step generate-questions: Succeeded - Generated ${result.questions.length} questions`
+        `Step generate-questions-from-summary: Succeeded - Generated ${result.questions.length} questions from summary`,
       );
       return { questions: result.questions, success: result.success };
     } catch (error) {
-      console.error(
-        'Step generate-questions: Failed - Error during generation:',
-        error
-      );
+      console.error('Step generate-questions-from-summary: Failed - Error during generation:', error);
       return { questions: [], success: false };
     }
   },
 });
 
-// Define the workflow with simple sequential steps
+// Define the workflow with simplified steps
 export const pdfToQuestionsWorkflow = createWorkflow({
   id: 'generate-questions-from-pdf-workflow',
-  description:
-    'Downloads PDF from URL, extracts text, and generates questions from the content',
+  description: 'Downloads PDF from URL, generates an AI summary, and creates questions from the summary',
   inputSchema: pdfInputSchema,
   outputSchema: questionsSchema,
 })
-  .then(downloadPdfStep)
-  .then(extractTextStep)
-  .then(generateQuestionsStep)
+  .then(downloadAndSummarizePdfStep)
+  .then(generateQuestionsFromSummaryStep)
   .commit();

@@ -1,20 +1,34 @@
 # PDF to Questions Generator
 
-A simple Mastra template that processes PDF files and generates comprehensive questions from their content using OpenAI GPT-4o.
+A Mastra template that demonstrates **how to protect against token limits** by generating AI summaries from large datasets before passing as output from tool calls.
+
+> **🎯 Key Learning**: This template shows how to use large context window models (OpenAI GPT-4.1 Mini) as a "summarization layer" to compress large documents into focused summaries, enabling efficient downstream processing without hitting token limits.
 
 ## Overview
 
-This template demonstrates a straightforward workflow:
+This template showcases a crucial architectural pattern for working with large documents and LLMs:
+
+**🚨 The Problem**: Large PDFs can contain 50,000+ tokens, which would overwhelm context windows and cost thousands of tokens for processing.
+
+**✅ The Solution**: Use a large context window model (OpenAI GPT-4.1 Mini) to generate focused summaries, then use those summaries for downstream processing.
+
+### Workflow
 
 1. **Input**: PDF URL
-2. **Download**: Fetch the PDF file
-3. **Extract Text**: Parse PDF using pure JavaScript (no system dependencies!)
-4. **Generate Questions**: Create questions using OpenAI GPT-4o
+2. **Download & Summarize**: Fetch PDF, extract text, and generate AI summary using OpenAI GPT-4.1 Mini
+3. **Generate Questions**: Create focused questions from the summary (not the full text)
+
+### Key Benefits
+
+- **📉 Token Reduction**: 80-95% reduction in token usage
+- **🎯 Better Quality**: More focused questions from key insights
+- **💰 Cost Savings**: Dramatically reduced processing costs
+- **⚡ Faster Processing**: Summaries are much faster to process than full text
 
 ## Prerequisites
 
 - Node.js 20.9.0 or higher
-- OpenAI API key (that's it!)
+- OpenAI API key (for both summarization and question generation)
 
 ## Setup
 
@@ -29,16 +43,59 @@ This template demonstrates a straightforward workflow:
 2. **Set up environment variables:**
 
    ```bash
-   cp env.example .env
-   # Edit .env and add your OpenAI API key
+   cp .env.example .env
+   # Edit .env and add your API keys
+   ```
+
+   ```env
+   OPENAI_API_KEY="your-openai-api-key-here"
    ```
 
 3. **Run the example:**
 
    ```bash
-   export OPENAI_API_KEY="your-real-api-key-here"
    npx tsx example.ts
    ```
+
+## 🏗️ Architectural Pattern: Token Limit Protection
+
+This template demonstrates a crucial pattern for working with large datasets in LLM applications:
+
+### The Challenge
+
+When processing large documents (PDFs, reports, transcripts), you often encounter:
+
+- **Token limits**: Documents can exceed context windows
+- **High costs**: Processing 50,000+ tokens repeatedly is expensive
+- **Poor quality**: LLMs perform worse on extremely long inputs
+- **Slow processing**: Large inputs take longer to process
+
+### The Solution: Summarization Layer
+
+Instead of passing raw data through your pipeline:
+
+1. **Use a large context window model** (OpenAI GPT-4.1 Mini) to digest the full content
+2. **Generate focused summaries** that capture key information
+3. **Pass summaries to downstream processing** instead of raw data
+
+### Implementation Details
+
+```typescript
+// ❌ BAD: Pass full text through pipeline
+const questions = await generateQuestions(fullPdfText); // 50,000 tokens!
+
+// ✅ GOOD: Summarize first, then process
+const summary = await summarizeWithGPT41Mini(fullPdfText); // 2,000 tokens
+const questions = await generateQuestions(summary); // Much better!
+```
+
+### When to Use This Pattern
+
+- **Large documents**: PDFs, reports, transcripts
+- **Batch processing**: Multiple documents
+- **Cost optimization**: Reduce token usage
+- **Quality improvement**: More focused processing
+- **Chain operations**: Multiple LLM calls on same data
 
 ## Usage
 
@@ -84,26 +141,23 @@ for await (const chunk of response.textStream) {
 ```typescript
 import { mastra } from './src/mastra/index';
 import { pdfFetcherTool } from './src/mastra/tools/download-pdf-tool';
-import { extractTextFromPDFTool } from './src/mastra/tools/extract-text-from-pdf-tool';
 import { generateQuestionsFromTextTool } from './src/mastra/tools/generate-questions-from-text-tool';
 
-// Step 1: Download PDF
+// Step 1: Download PDF and generate summary
 const pdfResult = await pdfFetcherTool.execute({
   context: { pdfUrl: 'https://example.com/document.pdf' },
+  mastra,
   runtimeContext: new RuntimeContext(),
 });
 
-// Step 2: Extract text
-const textResult = await extractTextFromPDFTool.execute({
-  context: { pdfBuffer: pdfResult.pdfBuffer },
-  runtimeContext: new RuntimeContext(),
-});
+console.log(`Downloaded ${pdfResult.fileSize} bytes from ${pdfResult.pagesCount} pages`);
+console.log(`Generated ${pdfResult.summary.length} character summary`);
 
-// Step 3: Generate questions
+// Step 2: Generate questions from summary
 const questionsResult = await generateQuestionsFromTextTool.execute({
   context: {
-    extractedText: textResult.extractedText,
-    maxQuestions: 10
+    extractedText: pdfResult.summary,
+    maxQuestions: 10,
   },
   mastra,
   runtimeContext: new RuntimeContext(),
@@ -139,22 +193,23 @@ console.log(questionsResult.questions);
 
 ### Tools
 
-- **`pdfFetcherTool`**: Downloads PDF files from URLs and returns buffers
-- **`extractTextFromPDFTool`**: Extracts text from PDF buffers using text parsing
-- **`generateQuestionsFromTextTool`**: Generates comprehensive questions from extracted text
+- **`pdfFetcherTool`**: Downloads PDF files from URLs, extracts text, and generates AI summaries
+- **`generateQuestionsFromTextTool`**: Generates comprehensive questions from summarized content
 
 ### Workflow Steps
 
-1. **`download-pdf`**: Downloads PDF from provided URL
-2. **`extract-text`**: Extracts text using JavaScript PDF parser (`pdf2json`)
-3. **`generate-questions`**: Creates comprehensive questions using the question generator agent
+1. **`download-and-summarize-pdf`**: Downloads PDF from provided URL and generates AI summary
+2. **`generate-questions-from-summary`**: Creates comprehensive questions from the AI summary
 
 ## Features
 
+- ✅ **Token Limit Protection**: Demonstrates how to handle large datasets without hitting context limits
+- ✅ **80-95% Token Reduction**: AI summarization drastically reduces processing costs
+- ✅ **Large Context Window**: Uses OpenAI GPT-4.1 Mini to handle large documents efficiently
 - ✅ **Zero System Dependencies**: Pure JavaScript solution
-- ✅ **Simple Setup**: Only requires OpenAI API key
+- ✅ **Single API Setup**: OpenAI for both summarization and question generation
 - ✅ **Fast Text Extraction**: Direct PDF parsing (no OCR needed for text-based PDFs)
-- ✅ **Educational Focus**: Generates comprehensive learning questions
+- ✅ **Educational Focus**: Generates focused learning questions from key insights
 - ✅ **Multiple Interfaces**: Workflow, Agent, and individual tools available
 
 ## How It Works
@@ -164,7 +219,6 @@ console.log(questionsResult.questions);
 This template uses a **pure JavaScript approach** that works for most PDFs:
 
 1. **Text-based PDFs** (90% of cases): Direct text extraction using `pdf2json`
-
    - ⚡ Fast and reliable
    - 🔧 No system dependencies
    - ✅ Works out of the box
@@ -283,6 +337,35 @@ npx tsx example.ts
 - Generates multiple question types
 - Covers different comprehension levels
 - Perfect for creating study materials
+
+## 🚀 Broader Applications
+
+This token limit protection pattern can be applied to many other scenarios:
+
+### Document Processing
+
+- **Legal documents**: Summarize contracts before analysis
+- **Research papers**: Extract key findings before comparison
+- **Technical manuals**: Create focused summaries for specific topics
+
+### Content Analysis
+
+- **Social media**: Summarize large thread conversations
+- **Customer feedback**: Compress reviews before sentiment analysis
+- **Meeting transcripts**: Extract action items and decisions
+
+### Data Processing
+
+- **Log analysis**: Summarize error patterns before classification
+- **Survey responses**: Compress feedback before theme extraction
+- **Code reviews**: Summarize changes before generating reports
+
+### Implementation Tips
+
+- Use **OpenAI GPT-4.1 Mini** for initial summarization (large context window)
+- Pass **summaries** to downstream tools, not raw data
+- **Chain summaries** for multi-step processing
+- **Preserve metadata** (file size, page count) for context
 
 ## Contributing
 
