@@ -2,7 +2,7 @@
 
 A Mastra template that demonstrates **how to protect against token limits** by generating AI summaries from large datasets before passing as output from tool calls.
 
-> **🎯 Key Learning**: This template shows how to use large context window models (OpenAI GPT-4.1 Mini) as a "summarization layer" to compress large documents into focused summaries, enabling efficient downstream processing without hitting token limits.
+> **🎯 Key Learning**: This template shows how to use large context window models (Google GPT-4.1 Mini) as a "summarization layer" to compress large documents into focused summaries, enabling efficient downstream processing without hitting token limits.
 
 ## Overview
 
@@ -10,12 +10,12 @@ This template showcases a crucial architectural pattern for working with large d
 
 **🚨 The Problem**: Large PDFs can contain 50,000+ tokens, which would overwhelm context windows and cost thousands of tokens for processing.
 
-**✅ The Solution**: Use a large context window model (OpenAI GPT-4.1 Mini) to generate focused summaries, then use those summaries for downstream processing.
+**✅ The Solution**: Use a large context window model (Google GPT-4.1 Mini) to generate focused summaries, then use those summaries for downstream processing.
 
 ### Workflow
 
 1. **Input**: PDF URL
-2. **Download & Summarize**: Fetch PDF, extract text, and generate AI summary using OpenAI GPT-4.1 Mini
+2. **Download & Summarize**: Fetch PDF, extract text, and generate AI summary using Google GPT-4.1 Mini
 3. **Generate Questions**: Create focused questions from the summary (not the full text)
 
 ### Key Benefits
@@ -28,7 +28,7 @@ This template showcases a crucial architectural pattern for working with large d
 ## Prerequisites
 
 - Node.js 20.9.0 or higher
-- OpenAI API key (for both summarization and question generation)
+- Google API key (for both summarization and question generation)
 
 ## Setup
 
@@ -48,7 +48,7 @@ This template showcases a crucial architectural pattern for working with large d
    ```
 
    ```env
-   OPENAI_API_KEY="your-openai-api-key-here"
+   GOOGLE_GENERATIVE_AI_API_KEY="your-openai-api-key-here"
    ```
 
 3. **Run the example:**
@@ -74,7 +74,7 @@ When processing large documents (PDFs, reports, transcripts), you often encounte
 
 Instead of passing raw data through your pipeline:
 
-1. **Use a large context window model** (OpenAI GPT-4.1 Mini) to digest the full content
+1. **Use a large context window model** (Google GPT-4.1 Mini) to digest the full content
 2. **Generate focused summaries** that capture key information
 3. **Pass summaries to downstream processing** instead of raw data
 
@@ -205,9 +205,9 @@ console.log(questionsResult.questions);
 
 - ✅ **Token Limit Protection**: Demonstrates how to handle large datasets without hitting context limits
 - ✅ **80-95% Token Reduction**: AI summarization drastically reduces processing costs
-- ✅ **Large Context Window**: Uses OpenAI GPT-4.1 Mini to handle large documents efficiently
+- ✅ **Large Context Window**: Uses Google GPT-4.1 Mini to handle large documents efficiently
 - ✅ **Zero System Dependencies**: Pure JavaScript solution
-- ✅ **Single API Setup**: OpenAI for both summarization and question generation
+- ✅ **Single API Setup**: Google for both summarization and question generation
 - ✅ **Fast Text Extraction**: Direct PDF parsing (no OCR needed for text-based PDFs)
 - ✅ **Educational Focus**: Generates focused learning questions from key insights
 - ✅ **Multiple Interfaces**: Workflow, Agent, and individual tools available
@@ -238,7 +238,7 @@ This template uses a **pure JavaScript approach** that works for most PDFs:
 ### Environment Variables
 
 ```bash
-OPENAI_API_KEY=your_openai_api_key_here
+GOOGLE_GENERATIVE_AI_API_KEY=your_openai_api_key_here
 ```
 
 ### Customization
@@ -280,13 +280,13 @@ src/mastra/
 
 ```bash
 # Run with a test PDF
-export OPENAI_API_KEY="your-api-key"
+export GOOGLE_GENERATIVE_AI_API_KEY="your-api-key"
 npx tsx example.ts
 ```
 
 ## Common Issues
 
-### "OPENAI_API_KEY is not set"
+### "GOOGLE_GENERATIVE_AI_API_KEY is not set"
 
 - Make sure you've set the environment variable
 - Check that your API key is valid and has sufficient credits
@@ -362,7 +362,7 @@ This token limit protection pattern can be applied to many other scenarios:
 
 ### Implementation Tips
 
-- Use **OpenAI GPT-4.1 Mini** for initial summarization (large context window)
+- Use **Google GPT-4.1 Mini** for initial summarization (large context window)
 - Pass **summaries** to downstream tools, not raw data
 - **Chain summaries** for multi-step processing
 - **Preserve metadata** (file size, page count) for context
