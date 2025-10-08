@@ -1,4 +1,4 @@
-import { openai } from '@ai-sdk/openai';
+import { groq } from '@ai-sdk/groq';
 import { Agent } from '@mastra/core/agent';
 import { pdfFetcherTool } from '../tools/download-pdf-tool';
 import { generateQuestionsFromTextTool } from '../tools/generate-questions-from-text-tool';
@@ -62,7 +62,7 @@ When successful, provide:
 
 Always be helpful and provide clear feedback about the process and results.
   `,
-  model: openai('gpt-4o'),
+  model: groq(process.env.MODEL ?? "llama-3.3-70b-versatile"),
   tools: {
     pdfFetcherTool,
     generateQuestionsFromTextTool,
