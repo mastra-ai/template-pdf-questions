@@ -62,5 +62,5 @@ Guidelines:
 
 The questions should help someone thoroughly understand and engage with the source material.
   `,
-  model: openai('gpt-4o'),
+  model: openai(process.env.MODEL ?? "gpt-4.1"),
 });
