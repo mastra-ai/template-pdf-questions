@@ -1,6 +1,6 @@
 import { Agent } from '@mastra/core/agent';
+
 export const textQuestionAgent = new Agent({
-  id: 'text-question-agent',
   name: 'Generate questions from text agent',
   description: 'An agent specialized in generating comprehensive questions from text',
   instructions: `
