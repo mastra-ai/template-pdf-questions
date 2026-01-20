@@ -27,8 +27,8 @@ This template showcases a crucial architectural pattern for working with large d
 
 ## Prerequisites
 
-- Node.js 20.9.0 or higher
-- OpenAI API key (for both summarization and question generation)
+- Node.js 22.13.0 or later
+- API key for your chosen provider (for both summarization and question generation)
 
 ## Setup
 
@@ -56,6 +56,19 @@ This template showcases a crucial architectural pattern for working with large d
    ```bash
    npx tsx example.ts
    ```
+
+## Model Configuration
+
+This template supports any AI model provider through Mastra's model router. You can use models from:
+
+- **OpenAI**: `openai/gpt-4o-mini`, `openai/gpt-4o`
+- **Anthropic**: `anthropic/claude-sonnet-4-5-20250929`, `anthropic/claude-haiku-4-5-20250929`
+- **Google**: `google/gemini-2.5-pro`, `google/gemini-2.0-flash-exp`
+- **Groq**: `groq/llama-3.3-70b-versatile`, `groq/llama-3.1-8b-instant`
+- **Cerebras**: `cerebras/llama-3.3-70b`
+- **Mistral**: `mistral/mistral-medium-2508`
+
+Set the `MODEL` environment variable in your `.env` file to your preferred model.
 
 ## 🏗️ Architectural Pattern: Token Limit Protection
 
@@ -104,7 +117,7 @@ const questions = await generateQuestions(summary); // Much better!
 ```typescript
 import { mastra } from './src/mastra/index';
 
-const run = await mastra.getWorkflow('pdfToQuestionsWorkflow').createRunAsync();
+const run = await mastra.getWorkflow('pdfToQuestionsWorkflow').createRun();
 
 // Using a PDF URL
 const result = await run.start({
@@ -205,9 +218,9 @@ console.log(questionsResult.questions);
 
 - ✅ **Token Limit Protection**: Demonstrates how to handle large datasets without hitting context limits
 - ✅ **80-95% Token Reduction**: AI summarization drastically reduces processing costs
-- ✅ **Large Context Window**: Uses OpenAI GPT-4.1 Mini to handle large documents efficiently
+- ✅ **Large Context Window**: Uses large context window models to handle documents efficiently
 - ✅ **Zero System Dependencies**: Pure JavaScript solution
-- ✅ **Single API Setup**: OpenAI for both summarization and question generation
+- ✅ **Multi-Provider Support**: Choose from OpenAI, Anthropic, Google, Groq, Cerebras, or Mistral
 - ✅ **Fast Text Extraction**: Direct PDF parsing (no OCR needed for text-based PDFs)
 - ✅ **Educational Focus**: Generates focused learning questions from key insights
 - ✅ **Multiple Interfaces**: Workflow, Agent, and individual tools available
@@ -247,6 +260,7 @@ You can customize the question generation by modifying the `textQuestionAgent`:
 
 ```typescript
 export const textQuestionAgent = new Agent({
+  id: 'generate-questions-agent',
   name: 'Generate questions from text agent',
   instructions: `
     You are an expert educational content creator...
